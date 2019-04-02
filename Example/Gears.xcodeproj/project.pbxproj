@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E09EA232254248E00F5209D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E09EA222254248E00F5209D /* Main.storyboard */; };
 		4ECDD64722534FED0052C419 /* Pods_GearsSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECDD64622534FED0052C419 /* Pods_GearsSampleApp.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 		251467B7C005C9F117B460F9 /* Pods_Gears_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gears_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45DAF1E2122BF262559259E3 /* Pods-GearsSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GearsSampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GearsSampleApp/Pods-GearsSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		48616A06999B575D6CC1AAC6 /* Pods_Gears_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gears_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E09EA222254248E00F5209D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4ECDD64122534CF00052C419 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ECDD64622534FED0052C419 /* Pods_GearsSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_GearsSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* GearsSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GearsSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +73,7 @@
 			children = (
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				4E09EA222254248E00F5209D /* Main.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E09EA232254248E00F5209D /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);

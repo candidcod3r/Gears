@@ -1,8 +1,8 @@
 {
   "name": "Gears",
-  "version": "0.1.0",
-  "summary": "A helper framework in Swift with useful extensions and debug tools.",
-  "description": "A helper framework in Swift with useful extensions and debug tools.",
+  "version": "0.2.0",
+  "summary": "A helper framework in Swift with useful extensions and debug utils.",
+  "description": "A helper framework in Swift with useful extensions and debug utils. This helps with productivity and faster developments of apps.",
   "homepage": "https://github.com/candidcod3r/Gears",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/candidcod3r/Gears.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"

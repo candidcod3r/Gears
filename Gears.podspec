@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name             = 'Gears'
-  spec.version          = '0.1.0'
+  spec.version          = '0.2.0'
   spec.summary          = 'A helper framework in Swift with useful extensions and debug utils.'
 
 # This description is used to generate tags and improve search results.
@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  spec.description      = 'A helper framework in Swift with useful extensions and debug utils.'
+  spec.description      = 'A helper framework in Swift with useful extensions and debug utils. This helps with productivity and faster developments of apps.'
 
   spec.homepage         = 'https://github.com/candidcod3r/Gears'
   # spec.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

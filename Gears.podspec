@@ -6,10 +6,10 @@
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
 
-Pod::Spec.new do |s|
-  s.name             = 'Gears'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Gears.'
+Pod::Spec.new do |spec|
+  spec.name             = 'Gears'
+  spec.version          = '0.1.0'
+  spec.summary          = 'A helper framework in Swift with useful extensions and debug tools.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +17,29 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  spec.description      = 'A helper framework in Swift with useful extensions and debug tools.'
 
-  s.homepage         = 'https://github.com/candidcod3r/Gears'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'candidcod3r' => 'candidcod3r@gmail.com' }
-  s.source           = { :git => 'https://github.com/candidcod3r/Gears.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  spec.homepage         = 'https://github.com/candidcod3r/Gears'
+  # spec.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  spec.license          = { :type => 'MIT', :file => 'LICENSE' }
+  spec.author           = { 'candidcod3r' => 'candidcod3r@gmail.com' }
+  spec.source           = { :git => 'https://github.com/candidcod3r/Gears.git', :tag => spec.version.version }
+  # spec.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'Gears/Classes/**/*'
+  spec.platform           = :ios, '11.0'
+  spec.swift_version      = '5.0'
+  spec.source_files       = 'Sources/**/*'
   
-  # s.resource_bundles = {
+  spec.ios.deployment_target = '8.0'
+  spec.ios.frameworks        = 'Foundation', 'CoreGraphics', 'UIKit'
+  spec.ios.exclude_files     = [
+  ]
+
+  # spec.resource_bundles = {
   #   'Gears' => ['Gears/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # spec.public_header_files = 'Pod/Classes/**/*.h'
+  # spec.frameworks = 'UIKit', 'MapKit'
+  # spec.dependency 'AFNetworking', '~> 2.3'
 end

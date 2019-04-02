@@ -1,0 +1,6 @@
+framework module Gears {
+  umbrella header "Gears-umbrella.h"
+
+  export *
+  module * { export * }
+}

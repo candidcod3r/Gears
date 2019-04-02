@@ -1,11 +1,7 @@
 use_frameworks!
 
-target 'Gears_Example' do
+target 'GearsSampleApp' do
+  
   pod 'Gears', :path => '../'
-
-  target 'Gears_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  
 end

@@ -1,0 +1,16 @@
+PODS:
+  - Gears (0.1.0)
+
+DEPENDENCIES:
+  - Gears (from `../`)
+
+EXTERNAL SOURCES:
+  Gears:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Gears: 4feb9d9d59f671dfa0d6229ec39339c1f360ee69
+
+PODFILE CHECKSUM: 31115fa2b19420f488bbdd861c74b0dfe7f6ca52
+
+COCOAPODS: 1.5.3

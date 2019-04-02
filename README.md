@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-Gears is available through [CocoaPods](https://cocoapods.org). To install
+Gears is **not** available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
@@ -22,7 +22,7 @@ pod 'Gears'
 
 ## Author
 
-candidcod3r, candidcod3r@gmail.com
+[Candid Cod3r](mailto:candidcod3r@gmail.com)
 
 ## License
 

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Gears
 
 class ViewController: UIViewController {
 

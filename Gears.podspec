@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
 
   spec.platform           = :ios, '11.0'
   spec.swift_version      = '5.0'
-  spec.source_files       = 'Sources/**/*'
+  spec.source_files       = 'Sources/**/*.swift'
   
   spec.ios.deployment_target = '8.0'
   spec.ios.frameworks        = 'Foundation', 'CoreGraphics', 'UIKit'

@@ -9,23 +9,19 @@
 import Foundation
 import UIKit
 
-internal let PHONE = (UI_USER_INTERFACE_IDIOM() == .phone)
-internal let PAD = (UI_USER_INTERFACE_IDIOM() == .pad)
+public let PHONE = (UI_USER_INTERFACE_IDIOM() == .phone)
+public let PAD = (UI_USER_INTERFACE_IDIOM() == .pad)
+public let CAMERA_AVAILABLE = UIImagePickerController.isSourceTypeAvailable(.camera)
+public let MAIN_SCALE = UIScreen.main.scale
 
-internal let CAMERA_AVAILABLE = UIImagePickerController.isSourceTypeAvailable(.camera)
-
-internal var SCREEN_SIZE: CGSize {
+public var SCREEN_SIZE: CGSize {
     return UIScreen.main.bounds.size
 }
 
-internal var MAIN_SCALE: CGFloat {
-    return UIScreen.main.scale
-}
-
-internal var STATUSBAR_FRAME: CGRect {
+public var STATUSBAR_FRAME: CGRect {
     return UIApplication.shared.statusBarFrame
 }
 
-internal var CURRENT_TIME: TimeInterval {
+public var CURRENT_TIME: TimeInterval {
     return NSDate().timeIntervalSince1970
 }

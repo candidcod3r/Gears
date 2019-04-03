@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		056E6229D14394E92C8A9D895055DDAA /* Gears-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D2B4EBFF49FAD3CBD3B3D95BAF3FC0B /* Gears-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E34AFF622545459005CAD68 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E34AFF522545459005CAD68 /* GlobalConstants.swift */; };
+		056E6229D14394E92C8A9D895055DDAA /* Gears-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C639B2E09D862512DD70A4B47738D95B /* Gears-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18F31EB218A2896F0A4C7C2C0EAF7B55 /* Gears-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C772EB188B023932AC138DF48FF962 /* Gears-dummy.m */; };
+		3E3AB09D00D4DE44689D3D0355A9948E /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDECEE378EE069207AF63D4BC7918AC /* GlobalConstants.swift */; };
 		6FA4C146FFFC8E228D7D29DCE1125504 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888156FA7EF8DE87950E8D5F409FB575 /* Foundation.framework */; };
 		71B143C822DB9609B870B391273F5476 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888156FA7EF8DE87950E8D5F409FB575 /* Foundation.framework */; };
-		8540A1AA1A5528A7EEBDD577A83C1AD4 /* Gears-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C21E6497201DED888903CCC33410B93 /* Gears-dummy.m */; };
 		85454412A57C47185CAE2EB3C12D0943 /* Pods-GearsSampleApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB1B75D61E22F5E665C792C7AEE5A00 /* Pods-GearsSampleApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C96B4F92B344B07D786E4C4566A27DFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD88DCD5873E78C5D6177D17DD10EFFE /* CoreGraphics.framework */; };
 		C9E51965E4ED1A8DDB0EF055EBF294F7 /* Pods-GearsSampleApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9771BBC3A990A4A762432A6B755538D3 /* Pods-GearsSampleApp-dummy.m */; };
@@ -29,32 +29,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01ACA424DC84F8146608D0CC40B929E7 /* Gears-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gears-prefix.pch"; sourceTree = "<group>"; };
-		07C374AA744773E75368B09780F5A4D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0A6F88312A008440339D3D38FCDE64C5 /* Pods-GearsSampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GearsSampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0BA18DC32951B5B4DBCEFEA116D160B0 /* Gears.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gears.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA18DC32951B5B4DBCEFEA116D160B0 /* Gears.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Gears.framework; path = Gears.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A578BD8A719FE1436332E0239A862E /* Gears.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Gears.modulemap; sourceTree = "<group>"; };
 		1ACF330A72DC40E450388407F7DFB2F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		1F7902695CE9A9570930B4C73B942227 /* Pods_GearsSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GearsSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D2B4EBFF49FAD3CBD3B3D95BAF3FC0B /* Gears-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gears-umbrella.h"; sourceTree = "<group>"; };
+		1F7902695CE9A9570930B4C73B942227 /* Pods_GearsSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GearsSampleApp.framework; path = "Pods-GearsSampleApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F84B8DC64164748136A7DD4F868FD59 /* Pods-GearsSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GearsSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
-		4C21E6497201DED888903CCC33410B93 /* Gears-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gears-dummy.m"; sourceTree = "<group>"; };
-		4E34AFF522545459005CAD68 /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
-		58B6FCBDACD9E4510EC6C651A414257E /* Gears.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Gears.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3B18E0175347FDBBA69CC995661F4E7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59CB391C4B754C3D137FB3842DBB1847 /* Pods-GearsSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GearsSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		628455733E3DD31934E7EDED134FF228 /* Pods-GearsSampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GearsSampleApp-frameworks.sh"; sourceTree = "<group>"; };
-		75FDA192192558E36178675166177278 /* Gears.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Gears.modulemap; sourceTree = "<group>"; };
 		7F44C3B87AF4BEAF4BE56D28C28C55DF /* Pods-GearsSampleApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GearsSampleApp-resources.sh"; sourceTree = "<group>"; };
+		85C772EB188B023932AC138DF48FF962 /* Gears-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gears-dummy.m"; sourceTree = "<group>"; };
 		888156FA7EF8DE87950E8D5F409FB575 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		89BA930EFB2D527AEDC57BCFE8ADD1C9 /* Gears.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gears.xcconfig; sourceTree = "<group>"; };
 		937AF52D8D92BBB3612FB7FBA3DBECC3 /* Pods-GearsSampleApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GearsSampleApp.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9560A2145748B7749BDE4795408308EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9771BBC3A990A4A762432A6B755538D3 /* Pods-GearsSampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GearsSampleApp-dummy.m"; sourceTree = "<group>"; };
+		99F635E4FE4A613C377E7B42638AB86B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9E1E8374E2DE66F5EA21879C1D2E93AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A84A23A36A7EF58E74AA0B738E93D039 /* Pods-GearsSampleApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GearsSampleApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		AA7CF8D6E6E763C1C8C7C21EACD0E4BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD88DCD5873E78C5D6177D17DD10EFFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		C639B2E09D862512DD70A4B47738D95B /* Gears-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gears-umbrella.h"; sourceTree = "<group>"; };
+		C6A982B3B7F76F0D17D05D24F3C17793 /* Gears.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Gears.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CFB1B75D61E22F5E665C792C7AEE5A00 /* Pods-GearsSampleApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GearsSampleApp-umbrella.h"; sourceTree = "<group>"; };
-		D279BE82EAB4DDF4E96F484340CB9304 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DFDECEE378EE069207AF63D4BC7918AC /* GlobalConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlobalConstants.swift; path = Sources/GlobalConstants.swift; sourceTree = "<group>"; };
+		F15D0F0E614F90C2A318A3F643AB68F7 /* Gears.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gears.xcconfig; sourceTree = "<group>"; };
+		F88B6C4408885302DC2CFA0C4425119A /* Gears-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gears-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 		0C9CEA0D251828A3672A61D012ACF07F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				65CCC1D03CF01537B5AFF446608F39B9 /* Gears */,
+				A0A3ADDD7A6C71D08E8429936A7A5211 /* Gears */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -95,26 +95,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1E50DA58F2BFD14B844EFA5252970A7D /* Support Files */ = {
+		3A7D7813B3A2C74E87DD09ACC3E2E897 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				75FDA192192558E36178675166177278 /* Gears.modulemap */,
-				89BA930EFB2D527AEDC57BCFE8ADD1C9 /* Gears.xcconfig */,
-				4C21E6497201DED888903CCC33410B93 /* Gears-dummy.m */,
-				01ACA424DC84F8146608D0CC40B929E7 /* Gears-prefix.pch */,
-				2D2B4EBFF49FAD3CBD3B3D95BAF3FC0B /* Gears-umbrella.h */,
-				AA7CF8D6E6E763C1C8C7C21EACD0E4BF /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Gears";
-			sourceTree = "<group>";
-		};
-		2063369FAB5085266461F1E5FAF11F00 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				58B6FCBDACD9E4510EC6C651A414257E /* Gears.podspec */,
-				D279BE82EAB4DDF4E96F484340CB9304 /* LICENSE */,
-				07C374AA744773E75368B09780F5A4D3 /* README.md */,
+				C6A982B3B7F76F0D17D05D24F3C17793 /* Gears.podspec */,
+				9560A2145748B7749BDE4795408308EC /* LICENSE */,
+				99F635E4FE4A613C377E7B42638AB86B /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -135,17 +121,6 @@
 			);
 			name = "Pods-GearsSampleApp";
 			path = "Target Support Files/Pods-GearsSampleApp";
-			sourceTree = "<group>";
-		};
-		65CCC1D03CF01537B5AFF446608F39B9 /* Gears */ = {
-			isa = PBXGroup;
-			children = (
-				4E34AFF522545459005CAD68 /* GlobalConstants.swift */,
-				2063369FAB5085266461F1E5FAF11F00 /* Pod */,
-				1E50DA58F2BFD14B844EFA5252970A7D /* Support Files */,
-			);
-			name = Gears;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		6D7A4D4DC12FD55B880F09728F970F91 /* Products */ = {
@@ -176,6 +151,17 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		A0A3ADDD7A6C71D08E8429936A7A5211 /* Gears */ = {
+			isa = PBXGroup;
+			children = (
+				DFDECEE378EE069207AF63D4BC7918AC /* GlobalConstants.swift */,
+				3A7D7813B3A2C74E87DD09ACC3E2E897 /* Pod */,
+				E17281F89DA12F61B49D576244C83422 /* Support Files */,
+			);
+			name = Gears;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		C0FEB5BC00BD5AFA53416A3538FFE0E3 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +170,20 @@
 				1ACF330A72DC40E450388407F7DFB2F7 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		E17281F89DA12F61B49D576244C83422 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10A578BD8A719FE1436332E0239A862E /* Gears.modulemap */,
+				F15D0F0E614F90C2A318A3F643AB68F7 /* Gears.xcconfig */,
+				85C772EB188B023932AC138DF48FF962 /* Gears-dummy.m */,
+				F88B6C4408885302DC2CFA0C4425119A /* Gears-prefix.pch */,
+				C639B2E09D862512DD70A4B47738D95B /* Gears-umbrella.h */,
+				3B18E0175347FDBBA69CC995661F4E7D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Gears";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B3A1B8529ECF127CE65E07BD7CC3FAA /* Build configuration list for PBXNativeTarget "Gears" */;
 			buildPhases = (
-				7DE3888869E4BF4E4F5A34E209FD2548 /* Sources */,
+				A7FF1E72845D90D10F4040DA0E0F65FE /* Sources */,
 				C84EEFAF70D4403B84AF2191264BDEC8 /* Frameworks */,
 				D713E80CAB95534A8FF3196A8C8F082A /* Headers */,
 			);
@@ -250,14 +250,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -272,12 +271,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7DE3888869E4BF4E4F5A34E209FD2548 /* Sources */ = {
+		A7FF1E72845D90D10F4040DA0E0F65FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8540A1AA1A5528A7EEBDD577A83C1AD4 /* Gears-dummy.m in Sources */,
-				4E34AFF622545459005CAD68 /* GlobalConstants.swift in Sources */,
+				18F31EB218A2896F0A4C7C2C0EAF7B55 /* Gears-dummy.m in Sources */,
+				3E3AB09D00D4DE44689D3D0355A9948E /* GlobalConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +304,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -437,7 +435,7 @@
 		};
 		DAE4ED97D0B0F51AAF57B2ABD55A7F26 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89BA930EFB2D527AEDC57BCFE8ADD1C9 /* Gears.xcconfig */;
+			baseConfigurationReference = F15D0F0E614F90C2A318A3F643AB68F7 /* Gears.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -469,7 +467,7 @@
 		};
 		ED64A25C90821923B29782FFC178A767 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89BA930EFB2D527AEDC57BCFE8ADD1C9 /* Gears.xcconfig */;
+			baseConfigurationReference = F15D0F0E614F90C2A318A3F643AB68F7 /* Gears.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -504,7 +502,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

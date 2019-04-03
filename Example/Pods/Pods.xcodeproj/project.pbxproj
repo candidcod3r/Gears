@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		056E6229D14394E92C8A9D895055DDAA /* Gears-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D2B4EBFF49FAD3CBD3B3D95BAF3FC0B /* Gears-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A15D6659D740EA037A6CC34119D3BFA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6C76DB932DAE6E52AC3B7F2F110B4D /* ReplaceMe.swift */; };
+		4E34AFF622545459005CAD68 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E34AFF522545459005CAD68 /* GlobalConstants.swift */; };
 		6FA4C146FFFC8E228D7D29DCE1125504 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888156FA7EF8DE87950E8D5F409FB575 /* Foundation.framework */; };
 		71B143C822DB9609B870B391273F5476 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888156FA7EF8DE87950E8D5F409FB575 /* Foundation.framework */; };
 		8540A1AA1A5528A7EEBDD577A83C1AD4 /* Gears-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C21E6497201DED888903CCC33410B93 /* Gears-dummy.m */; };
@@ -34,11 +34,11 @@
 		0A6F88312A008440339D3D38FCDE64C5 /* Pods-GearsSampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GearsSampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0BA18DC32951B5B4DBCEFEA116D160B0 /* Gears.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gears.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ACF330A72DC40E450388407F7DFB2F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		1E6C76DB932DAE6E52AC3B7F2F110B4D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Sources/ReplaceMe.swift; sourceTree = "<group>"; };
 		1F7902695CE9A9570930B4C73B942227 /* Pods_GearsSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GearsSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2B4EBFF49FAD3CBD3B3D95BAF3FC0B /* Gears-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gears-umbrella.h"; sourceTree = "<group>"; };
 		2F84B8DC64164748136A7DD4F868FD59 /* Pods-GearsSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GearsSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		4C21E6497201DED888903CCC33410B93 /* Gears-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gears-dummy.m"; sourceTree = "<group>"; };
+		4E34AFF522545459005CAD68 /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
 		58B6FCBDACD9E4510EC6C651A414257E /* Gears.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Gears.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		59CB391C4B754C3D137FB3842DBB1847 /* Pods-GearsSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GearsSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		628455733E3DD31934E7EDED134FF228 /* Pods-GearsSampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GearsSampleApp-frameworks.sh"; sourceTree = "<group>"; };
@@ -140,7 +140,7 @@
 		65CCC1D03CF01537B5AFF446608F39B9 /* Gears */ = {
 			isa = PBXGroup;
 			children = (
-				1E6C76DB932DAE6E52AC3B7F2F110B4D /* ReplaceMe.swift */,
+				4E34AFF522545459005CAD68 /* GlobalConstants.swift */,
 				2063369FAB5085266461F1E5FAF11F00 /* Pod */,
 				1E50DA58F2BFD14B844EFA5252970A7D /* Support Files */,
 			);
@@ -277,7 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8540A1AA1A5528A7EEBDD577A83C1AD4 /* Gears-dummy.m in Sources */,
-				6A15D6659D740EA037A6CC34119D3BFA /* ReplaceMe.swift in Sources */,
+				4E34AFF622545459005CAD68 /* GlobalConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

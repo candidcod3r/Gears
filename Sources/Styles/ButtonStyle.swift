@@ -77,7 +77,7 @@ public class ButtonStyleBuilder {
 
 extension UIButton {
     public func apply(_ style: ButtonStyle) {
-        layer.cornerRadius = style.cornerRadius
+        cornerRadius = style.cornerRadius
         backgroundColor = style.backgroundColor
         contentEdgeInsets = style.contentEdgeInsets
         titleLabel?.font = style.titleFont

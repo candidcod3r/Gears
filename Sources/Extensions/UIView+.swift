@@ -43,6 +43,16 @@ extension UIView {
         }
     }
 
+    public var cornerRadius: CGFloat {
+        get {
+            return layer.cornerRadius
+        }
+        set {
+            layer.masksToBounds = true
+            layer.cornerRadius = newValue
+        }
+    }
+
     /**
      Utility method helpful for debugging purposes
      */

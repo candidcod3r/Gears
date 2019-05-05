@@ -6,24 +6,33 @@
 //  Copyright (c) 2019 Candid Cod3r.
 //
 
-public struct TabBarStyle {
-    public let backgroundColor: UIColor
+open class TabBarStyle: ViewStyle {
     public let itemNormalStateColor: UIColor
     public let itemSelectedStateColor: UIColor
     public let indicatorColor: UIColor
     public let titleFont: UIFont
+
+    public init(cornerRadius: CGFloat,
+                backgroundColor: UIColor,
+                gradientColors: [UIColor],
+                itemNormalStateColor: UIColor,
+                itemSelectedStateColor: UIColor,
+                indicatorColor: UIColor,
+                titleFont: UIFont) {
+        self.itemNormalStateColor = itemNormalStateColor
+        self.itemSelectedStateColor = itemSelectedStateColor
+        self.indicatorColor = indicatorColor
+        self.titleFont = titleFont
+
+        super.init(
+            cornerRadius: cornerRadius,
+            backgroundColor: backgroundColor,
+            gradientColors: gradientColors)
+    }
 }
 
-public class TabBarStyleBuilder {
-    public init() {
-    }
 
-    private var backgroundColor = UIColor(0xFFFFFF)
-    public func backgroundColor(_ value: UIColor) -> TabBarStyleBuilder {
-        self.backgroundColor = value
-        return self
-    }
-
+public class TabBarStyleBuilder: ViewStyleBuilder {
     private var itemNormalStateColor = UIColor(0x000000)
     public func itemNormalStateColor(_ value: UIColor) -> TabBarStyleBuilder {
         self.itemNormalStateColor = value
@@ -50,7 +59,9 @@ public class TabBarStyleBuilder {
 
     public func build() -> TabBarStyle {
         return TabBarStyle(
+            cornerRadius: cornerRadius,
             backgroundColor: backgroundColor,
+            gradientColors: gradientColors,
             itemNormalStateColor: itemNormalStateColor,
             itemSelectedStateColor: itemSelectedStateColor,
             indicatorColor: indicatorColor,
@@ -61,5 +72,6 @@ public class TabBarStyleBuilder {
 extension UITabBar {
     func apply(_ style: TabBarStyle) {
         backgroundColor = style.backgroundColor
+        // TODO complete setting required properties
     }
 }

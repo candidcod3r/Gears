@@ -6,72 +6,66 @@
 //  Copyright (c) 2019 Candid Cod3r.
 //
 
-public struct ButtonStyle {
-    public let cornerRadius: CGFloat
-    public let backgroundColor: UIColor
+open class ButtonStyle: ViewStyle {
     public let contentEdgeInsets: UIEdgeInsets
     public let titleFont: UIFont
     public let titleColor: UIColor
     public let disabledTitleColor: UIColor
-    public let gradientColors: [UIColor]
+
+    public init(cornerRadius: CGFloat,
+                backgroundColor: UIColor,
+                gradientColors: [UIColor],
+                contentEdgeInsets: UIEdgeInsets,
+                titleFont: UIFont,
+                titleColor: UIColor,
+                disabledTitleColor: UIColor) {
+        self.contentEdgeInsets = contentEdgeInsets
+        self.titleFont = titleFont
+        self.titleColor = titleColor
+        self.disabledTitleColor = disabledTitleColor
+
+        super.init(
+            cornerRadius: cornerRadius,
+            backgroundColor: backgroundColor,
+            gradientColors: gradientColors)
+    }
 }
 
-public class ButtonStyleBuilder {
-    private var cornerRadius = CGFloat(4)
-    private var backgroundColor = UIColor(0x0283C3)
-    private var contentEdgeInsets = UIEdgeInsets(horizontal: 32, vertical: 16)
-    private var titleFont = Font(name: FontName.helveticaNeueLight, size: 17)
-    private var titleColor = UIColor(0xFFFFFF)
-    private var disabledTitleColor = UIColor.gray
-    private var gradientColors: [UIColor] = []
+open class ButtonStyleBuilder: ViewStyleBuilder {
+    open var contentEdgeInsets = UIEdgeInsets(horizontal: 32, vertical: 16)
+    open var titleFont = Font(name: FontName.helveticaNeueLight, size: 17)
+    open var titleColor = UIColor(0xFFFFFF)
+    open var disabledTitleColor = UIColor.gray
 
-    public init() {
-    }
-
-    public func cornerRadius(_ value: CGFloat) -> ButtonStyleBuilder {
-        self.cornerRadius = value
-        return self
-    }
-
-    public func backgroundColor(_ value: UIColor) -> ButtonStyleBuilder {
-        self.backgroundColor = value
-        return self
-    }
-
-    public func contentEdgeInsets(_ value: UIEdgeInsets) -> ButtonStyleBuilder {
+    open func contentEdgeInsets(_ value: UIEdgeInsets) -> ButtonStyleBuilder {
         self.contentEdgeInsets = value
         return self
     }
 
-    public func titleFont(_ value: UIFont) -> ButtonStyleBuilder {
+    open func titleFont(_ value: UIFont) -> ButtonStyleBuilder {
         self.titleFont = value
         return self
     }
 
-    public func titleColor(_ value: UIColor) -> ButtonStyleBuilder {
+    open func titleColor(_ value: UIColor) -> ButtonStyleBuilder {
         self.titleColor = value
         return self
     }
 
-    public func disabledTitleColor(_ value: UIColor) -> ButtonStyleBuilder {
+    open func disabledTitleColor(_ value: UIColor) -> ButtonStyleBuilder {
         self.disabledTitleColor = value
         return self
     }
 
-    public func gradientColors(_ value: [UIColor]) -> ButtonStyleBuilder {
-        self.gradientColors = value
-        return self
-    }
-
-    public func build() -> ButtonStyle {
+    open func build() -> ButtonStyle {
         return ButtonStyle(
             cornerRadius: cornerRadius,
             backgroundColor: backgroundColor,
+            gradientColors: gradientColors,
             contentEdgeInsets: contentEdgeInsets,
             titleFont: titleFont,
             titleColor: titleColor,
-            disabledTitleColor: disabledTitleColor,
-            gradientColors: gradientColors)
+            disabledTitleColor: disabledTitleColor)
     }
 }
 

@@ -48,7 +48,7 @@ extension UIView {
             return layer.cornerRadius
         }
         set {
-            layer.masksToBounds = true
+            layer.masksToBounds = newValue > 0
             layer.cornerRadius = newValue
         }
     }
@@ -71,6 +71,11 @@ extension UIView {
     }
 
     public func setGradient(with colors: [UIColor]) {
+        guard colors.count > 0 else {
+            gradientLayer?.removeFromSuperlayer()
+            return
+        }
+
         makeGradientLayerIfNeeded()
         gradientLayer?.type = .axial
         gradientLayer?.startPoint = CGPoint(x: 0, y: 0.5)

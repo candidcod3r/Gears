@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/Gears.svg?style=flat)](https://cocoapods.org/pods/Gears)
 [![Platform](https://img.shields.io/cocoapods/p/Gears.svg?style=flat)](https://cocoapods.org/pods/Gears)
 
+A bootstrapping framework in Swift with useful extensions and helpful utils. This helps with productivity and faster developments of apps.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

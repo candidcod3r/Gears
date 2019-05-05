@@ -1,8 +1,8 @@
 {
   "name": "Gears",
   "version": "0.0.2",
-  "summary": "A helper framework in Swift with useful extensions and debug utils.",
-  "description": "A helper framework in Swift with useful extensions and debug utils. This helps with productivity and faster developments of apps.",
+  "summary": "A bootstrapping framework in Swift with useful extensions and helpful utils.",
+  "description": "A bootstrapping framework in Swift with useful extensions and helpful utils. This helps with productivity and faster developments of apps.",
   "homepage": "https://github.com/candidcod3r/Gears",
   "license": {
     "type": "MIT",
@@ -29,5 +29,6 @@
     "exclude_files": [
 
     ]
-  }
+  },
+  "prefix_header_contents": "#import <Foundation/Foundation.h>\n#import <CoreGraphics/CoreGraphics.h>\n#import <UIKit/UIKit.h>"
 }

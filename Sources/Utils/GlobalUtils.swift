@@ -1,9 +1,9 @@
 //
-//  GlobalConstants.swift
+//  Global.swift
 //  Gears
 //
-//  Created by Candid Cod3r on 4/2/19.
-//  Copyright © 2019 Sparkles. All rights reserved.
+//  Created by Candid Cod3r on 5/3/19.
+//  Copyright (c) 2019 Candid Cod3r.
 //
 
 import Foundation
@@ -24,4 +24,16 @@ public var STATUSBAR_FRAME: CGRect {
 
 public var CURRENT_TIME: TimeInterval {
     return NSDate().timeIntervalSince1970
+}
+
+public func LocalizedString(_ key: String, comment: String = "") -> String {
+    return NSLocalizedString(key, comment: comment)
+}
+
+public func Font(name: FontName, size: CGFloat) -> UIFont {
+    if let font = UIFont(name: name.rawValue, size: size) {
+        return font
+    } else {
+        return UIFont.systemFont(ofSize: size)
+    }
 }

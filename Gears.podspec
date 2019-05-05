@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
   spec.name             = 'Gears'
   spec.version          = '0.0.2'
-  spec.summary          = 'A helper framework in Swift with useful extensions and debug utils.'
+  spec.summary          = 'A bootstrapping framework in Swift with useful extensions and helpful utils.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  spec.description      = 'A helper framework in Swift with useful extensions and debug utils. This helps with productivity and faster developments of apps.'
+  spec.description      = 'A bootstrapping framework in Swift with useful extensions and helpful utils. This helps with productivity and faster developments of apps.'
 
   spec.homepage         = 'https://github.com/candidcod3r/Gears'
   # spec.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -35,11 +35,16 @@ Pod::Spec.new do |spec|
   spec.ios.exclude_files     = [
   ]
 
+  spec.prefix_header_contents = '
+    #import <Foundation/Foundation.h>
+    #import <CoreGraphics/CoreGraphics.h>
+    #import <UIKit/UIKit.h>'
+
   # spec.resource_bundles = {
   #   'Gears' => ['Gears/Assets/*.png']
   # }
 
   # spec.public_header_files = 'Pod/Classes/**/*.h'
   # spec.frameworks = 'UIKit', 'MapKit'
-  # spec.dependency 'AFNetworking', '~> 2.3'
+  # spec.dependency 'Alamofire'
 end

@@ -42,7 +42,7 @@ public class NavigationBarStyleBuilder {
         return self
     }
 
-    private var barTint = UIColor(0x0283C3)
+    private var barTint = UIColor(0xFFFFFF)
     public func barTint(_ value: UIColor) -> NavigationBarStyleBuilder {
         self.barTint = value
         return self
@@ -60,7 +60,7 @@ public class NavigationBarStyleBuilder {
         return self
     }
 
-    private var titleColor = UIColor(0xFFFFFF)
+    private var titleColor = UIColor(0x000000)
     public func titleColor(_ value: UIColor) -> NavigationBarStyleBuilder {
         self.titleColor = value
         return self

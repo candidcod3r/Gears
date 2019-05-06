@@ -26,8 +26,8 @@ public var CURRENT_TIME: TimeInterval {
     return NSDate().timeIntervalSince1970
 }
 
-public func LocalizedString(_ key: String, comment: String = "") -> String {
-    return NSLocalizedString(key, comment: comment)
+public func Localized(_ key: String, comment: String = "", args: CVarArg...) -> String {
+    return String(format: NSLocalizedString(key, comment: comment), args)
 }
 
 public func Font(name: FontName, size: CGFloat) -> UIFont {

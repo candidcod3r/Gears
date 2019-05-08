@@ -1,5 +1,5 @@
 //
-//  UIColor+.swift
+//  UIColor+Gears.swift
 //  Gears
 //
 //  Created by Candid Cod3r on 5/4/19.

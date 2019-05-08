@@ -1,5 +1,5 @@
 //
-//  CGRect+.swift
+//  CGRec+Gears.swift
 //  Gears
 //
 //  Created by Candid Cod3r on 5/3/19.

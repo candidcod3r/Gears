@@ -1,5 +1,5 @@
 //
-//  UIView+.swift￼
+//  UIView+Gears.swift￼
 //  Gears
 //
 //  Created by Candid Cod3r on 5/3/19.

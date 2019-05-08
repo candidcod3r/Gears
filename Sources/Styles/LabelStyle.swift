@@ -26,7 +26,7 @@ open class LabelStyle: ViewStyle {
 }
 
 open class LabelStyleBuilder: ViewStyleBuilder {
-    open var font = Font.helveticaNeue.withSize(15)
+    open var font = UIFont.helveticaNeue.withSize(15)
     open var textColor = UIColor(0x000000)
 
     open func font(_ value: UIFont) -> LabelStyleBuilder {

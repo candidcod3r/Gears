@@ -51,7 +51,7 @@ public class TabBarStyleBuilder: ViewStyleBuilder {
         return self
     }
 
-    private var titleFont = Font.appleSDGothicNeoRegular.withSize(15)
+    private var titleFont = UIFont.appleSDGothicNeoRegular.withSize(15)
     public func titleFont(_ value: UIFont) -> TabBarStyleBuilder {
         self.titleFont = value
         return self

@@ -10,6 +10,8 @@ open class ButtonStyle: ViewStyle {
     public let contentEdgeInsets: UIEdgeInsets
     public let titleFont: UIFont
     public let titleColor: UIColor
+    public let highlightedTitleColor: UIColor
+    public let selectedTitleColor: UIColor
     public let disabledTitleColor: UIColor
 
     public init(cornerRadius: CGFloat,
@@ -18,10 +20,14 @@ open class ButtonStyle: ViewStyle {
                 contentEdgeInsets: UIEdgeInsets,
                 titleFont: UIFont,
                 titleColor: UIColor,
+                highlightedTitleColor: UIColor,
+                selectedTitleColor: UIColor,
                 disabledTitleColor: UIColor) {
         self.contentEdgeInsets = contentEdgeInsets
         self.titleFont = titleFont
         self.titleColor = titleColor
+        self.highlightedTitleColor = highlightedTitleColor
+        self.selectedTitleColor = selectedTitleColor
         self.disabledTitleColor = disabledTitleColor
 
         super.init(
@@ -33,8 +39,10 @@ open class ButtonStyle: ViewStyle {
 
 open class ButtonStyleBuilder: ViewStyleBuilder {
     open var contentEdgeInsets = UIEdgeInsets(horizontal: 32, vertical: 16)
-    open var titleFont = Font.helveticaNeueLight.withSize(17)
-    open var titleColor = UIColor(0xFFFFFF)
+    open var titleFont = UIFont.helveticaNeueLight.withSize(17)
+    open var titleColor = UIColor.black
+    open var highlightedTitleColor = UIColor.lightGray
+    open var selectedTitleColor = UIColor.black
     open var disabledTitleColor = UIColor.gray
 
     open func contentEdgeInsets(_ value: UIEdgeInsets) -> ButtonStyleBuilder {
@@ -52,6 +60,16 @@ open class ButtonStyleBuilder: ViewStyleBuilder {
         return self
     }
 
+    open func highlightedTitleColor(_ value: UIColor) -> ButtonStyleBuilder {
+        self.highlightedTitleColor = value
+        return self
+    }
+
+    open func selectedTitleColor(_ value: UIColor) -> ButtonStyleBuilder {
+        self.selectedTitleColor = value
+        return self
+    }
+
     open func disabledTitleColor(_ value: UIColor) -> ButtonStyleBuilder {
         self.disabledTitleColor = value
         return self
@@ -65,6 +83,8 @@ open class ButtonStyleBuilder: ViewStyleBuilder {
             contentEdgeInsets: contentEdgeInsets,
             titleFont: titleFont,
             titleColor: titleColor,
+            highlightedTitleColor: highlightedTitleColor,
+            selectedTitleColor: selectedTitleColor,
             disabledTitleColor: disabledTitleColor)
     }
 }
@@ -77,6 +97,8 @@ extension UIButton {
         contentEdgeInsets = style.contentEdgeInsets
         titleLabel?.font = style.titleFont
         setTitleColor(style.titleColor, for: .normal)
+        setTitleColor(style.highlightedTitleColor, for: .highlighted)
+        setTitleColor(style.selectedTitleColor, for: .selected)
         setTitleColor(style.disabledTitleColor, for: .disabled)
     }
 }

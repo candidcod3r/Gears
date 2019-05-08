@@ -26,7 +26,7 @@ public var CURRENT_TIME: TimeInterval {
     return NSDate().timeIntervalSince1970
 }
 
-public func Localized(_ key: String, comment: String = "", args: CVarArg...) -> String {
+public func Localized(_ key: String, _ comment: String = "", _ args: CVarArg...) -> String {
     return String(format: NSLocalizedString(key, comment: comment), args)
 }
 

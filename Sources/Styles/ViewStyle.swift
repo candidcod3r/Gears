@@ -67,6 +67,6 @@ extension UIView {
     public func apply(_ style: ViewStyle) {
         cornerRadius = style.cornerRadius
         backgroundColor = style.backgroundColor
-        setGradient(with: style.gradientColors)
+        addGradientView(with: style.gradientColors)
     }
 }

@@ -77,6 +77,6 @@ extension UIButton {
         titleLabel?.font = style.titleFont
         setTitleColor(style.titleColor, for: .normal)
         setTitleColor(style.disabledTitleColor, for: .disabled)
-        setGradient(with: style.gradientColors)
+        addGradientView(with: style.gradientColors)
     }
 }

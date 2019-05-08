@@ -30,7 +30,7 @@ public class NavigationBarStyleBuilder {
     public init() {
     }
 
-    private var barStyle = UIBarStyle.black
+    private var barStyle = UIBarStyle.default
     public func barStyle(_ value: UIBarStyle) -> NavigationBarStyleBuilder {
         self.barStyle = value
         return self

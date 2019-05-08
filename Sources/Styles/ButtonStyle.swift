@@ -33,7 +33,7 @@ open class ButtonStyle: ViewStyle {
 
 open class ButtonStyleBuilder: ViewStyleBuilder {
     open var contentEdgeInsets = UIEdgeInsets(horizontal: 32, vertical: 16)
-    open var titleFont = Font(name: FontName.helveticaNeueLight, size: 17)
+    open var titleFont = Font.helveticaNeueLight.withSize(17)
     open var titleColor = UIColor(0xFFFFFF)
     open var disabledTitleColor = UIColor.gray
 
@@ -73,10 +73,10 @@ extension UIButton {
     public func apply(_ style: ButtonStyle) {
         cornerRadius = style.cornerRadius
         backgroundColor = style.backgroundColor
+        addGradientView(with: style.gradientColors)
         contentEdgeInsets = style.contentEdgeInsets
         titleLabel?.font = style.titleFont
         setTitleColor(style.titleColor, for: .normal)
         setTitleColor(style.disabledTitleColor, for: .disabled)
-        addGradientView(with: style.gradientColors)
     }
 }

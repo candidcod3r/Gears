@@ -48,13 +48,13 @@ public class NavigationBarStyleBuilder {
         return self
     }
 
-    private var titleFont = Font(name: .appleSDGothicNeoRegular, size: 26)
+    private var titleFont = Font.appleSDGothicNeoRegular.withSize(26)
     public func titleFont(_ value: UIFont) -> NavigationBarStyleBuilder {
         self.titleFont = value
         return self
     }
 
-    private var largeTitleFont = Font(name: .appleSDGothicNeoRegular, size: 32)
+    private var largeTitleFont = Font.appleSDGothicNeoRegular.withSize(32)
     public func largeTitleFont(_ value: UIFont) -> NavigationBarStyleBuilder {
         self.largeTitleFont = value
         return self
@@ -66,7 +66,7 @@ public class NavigationBarStyleBuilder {
         return self
     }
 
-    private var barButtonFont = Font(name: .appleSDGothicNeoRegular, size: 16)
+    private var barButtonFont = Font.appleSDGothicNeoRegular.withSize(16)
     public func barButtonFont(_ value: UIFont) -> NavigationBarStyleBuilder {
         self.barButtonFont = value
         return self

@@ -29,11 +29,3 @@ public var CURRENT_TIME: TimeInterval {
 public func Localized(_ key: String, _ comment: String = "", _ args: CVarArg...) -> String {
     return String(format: NSLocalizedString(key, comment: comment), args)
 }
-
-public func Font(name: FontName, size: CGFloat) -> UIFont {
-    if let font = UIFont(name: name.rawValue, size: size) {
-        return font
-    } else {
-        return UIFont.systemFont(ofSize: size)
-    }
-}

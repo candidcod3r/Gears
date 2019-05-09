@@ -48,13 +48,13 @@ public class NavigationBarStyleBuilder {
         return self
     }
 
-    private var titleFont = UIFont.appleSDGothicNeoRegular.withSize(26)
+    private var titleFont = UIFont.appleSDGothicNeoRegular.withSize(22)
     public func titleFont(_ value: UIFont) -> NavigationBarStyleBuilder {
         self.titleFont = value
         return self
     }
 
-    private var largeTitleFont = UIFont.appleSDGothicNeoRegular.withSize(32)
+    private var largeTitleFont = UIFont.appleSDGothicNeoRegular.withSize(28)
     public func largeTitleFont(_ value: UIFont) -> NavigationBarStyleBuilder {
         self.largeTitleFont = value
         return self

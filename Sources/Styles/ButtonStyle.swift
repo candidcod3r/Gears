@@ -45,37 +45,37 @@ open class ButtonStyleBuilder: ViewStyleBuilder {
     open var selectedTitleColor = UIColor.black
     open var disabledTitleColor = UIColor.gray
 
-    open func contentEdgeInsets(_ value: UIEdgeInsets) -> ButtonStyleBuilder {
+    open func contentEdgeInsets(_ value: UIEdgeInsets) -> Self {
         self.contentEdgeInsets = value
         return self
     }
 
-    open func titleFont(_ value: UIFont) -> ButtonStyleBuilder {
+    open func titleFont(_ value: UIFont) -> Self {
         self.titleFont = value
         return self
     }
 
-    open func titleColor(_ value: UIColor) -> ButtonStyleBuilder {
+    open func titleColor(_ value: UIColor) -> Self {
         self.titleColor = value
         return self
     }
 
-    open func highlightedTitleColor(_ value: UIColor) -> ButtonStyleBuilder {
+    open func highlightedTitleColor(_ value: UIColor) -> Self {
         self.highlightedTitleColor = value
         return self
     }
 
-    open func selectedTitleColor(_ value: UIColor) -> ButtonStyleBuilder {
+    open func selectedTitleColor(_ value: UIColor) -> Self {
         self.selectedTitleColor = value
         return self
     }
 
-    open func disabledTitleColor(_ value: UIColor) -> ButtonStyleBuilder {
+    open func disabledTitleColor(_ value: UIColor) -> Self {
         self.disabledTitleColor = value
         return self
     }
 
-    open func build() -> ButtonStyle {
+    open override func build() -> ButtonStyle {
         return ButtonStyle(
             cornerRadius: cornerRadius,
             backgroundColor: backgroundColor,

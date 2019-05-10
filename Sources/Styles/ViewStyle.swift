@@ -25,19 +25,7 @@ open class ViewStyleBuilder: StyleBuilder {
 
     public init() {
     }
-}
 
-public protocol StyleBuilder: class {
-    associatedtype ViewStyleType: ViewStyle
-
-    var cornerRadius: CGFloat { get set }
-    var backgroundColor: UIColor { get set }
-    var gradientColors: [UIColor] { get set }
-
-    func build() -> ViewStyleType
-}
-
-extension StyleBuilder {
     public func cornerRadius(_ value: CGFloat) -> Self {
         self.cornerRadius = value
         return self
@@ -52,15 +40,19 @@ extension StyleBuilder {
         self.gradientColors = value
         return self
     }
-}
 
-extension StyleBuilder where ViewStyleType == ViewStyle {
     public func build() -> ViewStyle {
         return ViewStyle(
             cornerRadius: cornerRadius,
             backgroundColor: backgroundColor,
             gradientColors: gradientColors)
     }
+}
+
+public protocol StyleBuilder: class {
+    associatedtype ViewStyleType: ViewStyle
+
+    func build() -> ViewStyleType
 }
 
 extension UIView {

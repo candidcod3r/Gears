@@ -31,43 +31,43 @@ public class NavigationBarStyleBuilder {
     }
 
     private var barStyle = UIBarStyle.default
-    public func barStyle(_ value: UIBarStyle) -> NavigationBarStyleBuilder {
+    public func barStyle(_ value: UIBarStyle) -> Self {
         self.barStyle = value
         return self
     }
 
     private var tint = UIColor(0xFFFFFF)
-    public func tint(_ value: UIColor) -> NavigationBarStyleBuilder {
+    public func tint(_ value: UIColor) -> Self {
         self.tint = value
         return self
     }
 
     private var barTint = UIColor(0xFFFFFF)
-    public func barTint(_ value: UIColor) -> NavigationBarStyleBuilder {
+    public func barTint(_ value: UIColor) -> Self {
         self.barTint = value
         return self
     }
 
     private var titleFont = UIFont.appleSDGothicNeoRegular.withSize(22)
-    public func titleFont(_ value: UIFont) -> NavigationBarStyleBuilder {
+    public func titleFont(_ value: UIFont) -> Self {
         self.titleFont = value
         return self
     }
 
     private var largeTitleFont = UIFont.appleSDGothicNeoRegular.withSize(28)
-    public func largeTitleFont(_ value: UIFont) -> NavigationBarStyleBuilder {
+    public func largeTitleFont(_ value: UIFont) -> Self {
         self.largeTitleFont = value
         return self
     }
 
     private var titleColor = UIColor(0x000000)
-    public func titleColor(_ value: UIColor) -> NavigationBarStyleBuilder {
+    public func titleColor(_ value: UIColor) -> Self {
         self.titleColor = value
         return self
     }
 
     private var barButtonFont = UIFont.appleSDGothicNeoRegular.withSize(16)
-    public func barButtonFont(_ value: UIFont) -> NavigationBarStyleBuilder {
+    public func barButtonFont(_ value: UIFont) -> Self {
         self.barButtonFont = value
         return self
     }

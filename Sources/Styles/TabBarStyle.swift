@@ -34,30 +34,30 @@ open class TabBarStyle: ViewStyle {
 
 public class TabBarStyleBuilder: ViewStyleBuilder {
     private var itemNormalStateColor = UIColor(0x000000)
-    public func itemNormalStateColor(_ value: UIColor) -> TabBarStyleBuilder {
+    public func itemNormalStateColor(_ value: UIColor) -> Self {
         self.itemNormalStateColor = value
         return self
     }
 
     private var itemSelectedStateColor = UIColor(0x0283C3)
-    public func itemSelectedStateColor(_ value: UIColor) -> TabBarStyleBuilder {
+    public func itemSelectedStateColor(_ value: UIColor) -> Self {
         self.itemSelectedStateColor = value
         return self
     }
 
     private var indicatorColor = UIColor(0x0283C3)
-    public func indicatorColor(_ value: UIColor) -> TabBarStyleBuilder {
+    public func indicatorColor(_ value: UIColor) -> Self {
         self.indicatorColor = value
         return self
     }
 
     private var titleFont = UIFont.appleSDGothicNeoRegular.withSize(15)
-    public func titleFont(_ value: UIFont) -> TabBarStyleBuilder {
+    public func titleFont(_ value: UIFont) -> Self {
         self.titleFont = value
         return self
     }
 
-    public func build() -> TabBarStyle {
+    public override func build() -> TabBarStyle {
         return TabBarStyle(
             cornerRadius: cornerRadius,
             backgroundColor: backgroundColor,

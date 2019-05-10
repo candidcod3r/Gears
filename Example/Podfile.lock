@@ -1,5 +1,5 @@
 PODS:
-  - Gears (1.0.1)
+  - Gears (1.0.2)
 
 DEPENDENCIES:
   - Gears (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Gears: d96879d2ecff511be0bad53aae4335a57070cee0
+  Gears: b5a5794fa7199c7abd9f1b2ed13fdcee3a80797a
 
 PODFILE CHECKSUM: 07a401a05dceaeb31c863c8adc539a372409ba19
 

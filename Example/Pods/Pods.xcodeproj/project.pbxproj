@@ -7,33 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E951683F85474F257C781F74D8B76D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC14D54CF483CF531F6412BFC589C4B /* CoreGraphics.framework */; };
-		014927275C3B4CCC65E66E1B5B2FEEF6 /* Gears-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CE42F2670C091ADC4D3FBB40D84141B /* Gears-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		02D1D7AC51CF1F457B62C9AE6FC3A184 /* TabBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BABA64D658CDD43A511F343D565BC98 /* TabBarStyle.swift */; };
-		06948CF841A9E9CDBC3A882CD98F51E1 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB7F998CCC25AC1B65FE2DC610D88C /* GradientView.swift */; };
-		095BCBFBAF6A493E05FE739B1CFB2480 /* UIViewController+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF21351FB90C6CAFC8FE1AD07C9C015 /* UIViewController+Gears.swift */; };
-		10D7FE688E53C48D1E49DB8DCA7113C5 /* Gears-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAB5C8CB7120CAAD08B69DD9535BD8F /* Gears-dummy.m */; };
+		056E32734ED958DB317D9DBEFDF3E4C4 /* Optional+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949A33AC17FCB4B3A4A0553DB34AFC71 /* Optional+Gears.swift */; };
+		0E47DEAADD312020DBFE133F7A67CC66 /* UIView+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16489AA47031F769E520610590926E /* UIView+Gears.swift */; };
 		159F734DEF06E9C88FDC552BEFF102EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2AF5EA4D9F769D41042A99A80FFB9ED /* Foundation.framework */; };
-		2508180033C6F7D9BCBAA1BF0C75966A /* LabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527263D2AA695C5787E82F6B3F05107A /* LabelStyle.swift */; };
-		26DF9FE7A6C3D53F71C975D9E62D8D26 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A2986089246E9EDFAA4F961AAD33DB /* ButtonStyle.swift */; };
-		294BD38773899C1918AEE9156C636A1D /* String+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C75F5E662F052FA7478958FBA0A161 /* String+Gears.swift */; };
-		3F4E1D4D51CAA6CDD03A4C6234C15E99 /* CGRect+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B484FA6ACAEA5B61825748C9CF9F0 /* CGRect+Gears.swift */; };
+		1A3E283A45AEEACE489F2206858B6ADB /* LabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC6E5E2210749E09E2E064D2D8BCDFF /* LabelStyle.swift */; };
+		2228AA93ECD2DE03406543EB4CD32DDB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4C4E397722331269974ACF214AF751 /* GradientView.swift */; };
+		2DAA7228236CC2C226009D3035AC2F08 /* String+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A97DC2D004D62227D312E3D0675E562 /* String+Gears.swift */; };
+		2F0B8A8B0A39F3B56BD8584BBA244EDD /* UIViewController+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539BE16432B65505223F56AB9CEDD5DE /* UIViewController+Gears.swift */; };
+		2FE5BE3B69B821AB5B951BC3FA71CD15 /* UIColor+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = F680B0F65083D81F765BECACF61B8451 /* UIColor+Gears.swift */; };
+		4D6FBEBB15E82CCB3526DD8C964A99EA /* TabBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBD7167A84A8B7F8117E763101EDFC /* TabBarStyle.swift */; };
 		51A56CAC1F3BA678D19AA2B2DBACC012 /* Pods-GearsSampleApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30D68E2C5307ACC2182F436FCB9A6CEF /* Pods-GearsSampleApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		562E4AFB4095355B4094B58FD087209C /* ViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE8BD0FE84CC48D1B019FA8E9A8FA7 /* ViewStyle.swift */; };
-		57D96CFEEC6C2A44BFFBB8BAF0EA9200 /* GlobalUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2403406B51FE33051953B71AE8F63D87 /* GlobalUtils.swift */; };
-		6C8B7E523DEFC642474E8E7634292DB9 /* UIFont+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3655B81BD850DC13A260C617B7BD37 /* UIFont+Gears.swift */; };
-		6D2C2E64DBE40AA8745A8B64CFDC705B /* NavigationBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E3E6317C1B2451704FF6ADE9AA7703 /* NavigationBarStyle.swift */; };
-		6E2F68F831A47FEEE2245CE3C2542941 /* KeyboardNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE682981D15144C9F9041FBFF6D2928 /* KeyboardNotification.swift */; };
-		776251C2EB986781F83580805FC08668 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2AF5EA4D9F769D41042A99A80FFB9ED /* Foundation.framework */; };
+		526A20E45F89262FB35828FC1BF21F90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D484CFBFE2A7C64F31ED406CB49E7DDE /* UIKit.framework */; };
+		567D432E3338A11E7B6EB545A1A5A7C8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DF5DF8F0D4E760CC3A47EB1FC470A3 /* Model.swift */; };
+		56E39A9CB3B8DC3D8A7055E3F43D2DE6 /* CGRect+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534BF58D0E82A614C10BF62A4A30A9AD /* CGRect+Gears.swift */; };
+		7892518021570593A928C2BEC221047A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC14D54CF483CF531F6412BFC589C4B /* CoreGraphics.framework */; };
+		8483AA2E50C2A7C67A308C4C1EA7E1B4 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E16D4AAC9BEC37F1225374E7BF6A2 /* ButtonStyle.swift */; };
+		86BE716A0201330792D7CD2ECDF5FD7B /* TextViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6BD6252F90539E181408DA2E62D26A /* TextViewStyle.swift */; };
+		8A86619D49DE3D6931D0EE715024485D /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD45CBD94AAC81E27C29C6ABC03F890 /* TextStyle.swift */; };
+		8B323655A386A4733FEBFCD7B0B99FE5 /* NavigationBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EAD128404F3F08B83535D98AFC9BD2 /* NavigationBarStyle.swift */; };
+		91ADAB02664D3EF30B429FA2300A609E /* UIFont+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0D853644E631F7DBC67444F6D0DBC1 /* UIFont+Gears.swift */; };
 		9725E324B5A37C74EEF33305DB4E7B97 /* Pods-GearsSampleApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8DC525E4F62110CFD1EF0004B31552 /* Pods-GearsSampleApp-dummy.m */; };
-		9A74B22C7A4A85EE30488AF9083D1269 /* UIView+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDC920FEAD0585A8AB9CFDE96AE7825 /* UIView+Gears.swift */; };
-		9B6BD9FA612240ACDA6558074A7F3E43 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF30748BB3791AABCCD226EF09AC0BED /* Model.swift */; };
-		B61F5E32F51E75F78A2E7C8609FD851C /* UIEdgeInsets+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7982A8CB533F563EB65F51A7F5B66FF7 /* UIEdgeInsets+Gears.swift */; };
-		C0F138E70AED494FD88B5BDC47455DFE /* Optional+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4EDF473BC133458FD9612BCD0FB713 /* Optional+Gears.swift */; };
-		D08B5E8FA5FD9A1878DFADE486960392 /* DataUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC5CBAAB05C45589E4F99641E979F48 /* DataUtils.swift */; };
-		DD0B6323917F1A285912C0C3AE819A54 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DAF819E67C7DADBD5B8B6889821D3F /* KeyboardObserver.swift */; };
-		E2F9779EF44B25EFE985F0B005D06F07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D484CFBFE2A7C64F31ED406CB49E7DDE /* UIKit.framework */; };
-		E452480124E15C2AB21B362ED52F10FD /* UIColor+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E000E26DF7BEC8D488527E67FDE5312 /* UIColor+Gears.swift */; };
+		9AB56A6B22474342DE28D5A112DBE9D2 /* ViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63031D3055C733FDA856CCBDF7688734 /* ViewStyle.swift */; };
+		9C7E66DEF1E5D42FDF09300024944787 /* GlobalUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05FB7BA49BBB552036EA6EAC0180BDF /* GlobalUtils.swift */; };
+		AC7A979EE4C3B11D57F92C96AC1222FE /* UIEdgeInsets+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D564831A473DFDE5AF16A478A64CB4 /* UIEdgeInsets+Gears.swift */; };
+		AE6749535ED44E8071B170823383B504 /* Gears-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD2B360BC42EF66514B1049F430661D /* Gears-dummy.m */; };
+		BB46D45C9FE224A1A9484BA8E9835175 /* DataUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0BB61401154D1A94B940827C0F9AE8 /* DataUtils.swift */; };
+		CD44E89F60D86837B17CB480B5F66ECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2AF5EA4D9F769D41042A99A80FFB9ED /* Foundation.framework */; };
+		E1E02D19EE2B82574A223FC33042ADEC /* Gears-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C5EE8ED710769A20C458C6828B6B860 /* Gears-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7069DD01984AD0E5301B36EB29DDA5 /* KeyboardNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7069A8F2EE2DBDB56825CF37A4C0C3AC /* KeyboardNotification.swift */; };
+		EDB79FDD82EDBBE3ADA99DCA5FE25B9E /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90EAE169F6100ACBFEA493C27B42994 /* KeyboardObserver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,66 +43,68 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9E9D5770C77852BA61BD9839FB143434;
+			remoteGlobalIDString = 19F2BC90E80F3B41F535A09EF19FF420;
 			remoteInfo = Gears;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		027E16D4AAC9BEC37F1225374E7BF6A2 /* ButtonStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		062FB8F2B09830FFD1BB21FBF83C768E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		147ADDCF6B7BA3822FBD0920A7F84D3C /* Pods-GearsSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GearsSampleApp.release.xcconfig"; sourceTree = "<group>"; };
-		2403406B51FE33051953B71AE8F63D87 /* GlobalUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GlobalUtils.swift; sourceTree = "<group>"; };
 		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2C05DCC7422D9B658EDB12CBAB800C7D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2C4C4E397722331269974ACF214AF751 /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		2CBAADAE39E81BA33AF58F341A3D90EA /* Pods-GearsSampleApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GearsSampleApp.modulemap"; sourceTree = "<group>"; };
-		2E000E26DF7BEC8D488527E67FDE5312 /* UIColor+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Gears.swift"; sourceTree = "<group>"; };
 		2E8DC525E4F62110CFD1EF0004B31552 /* Pods-GearsSampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GearsSampleApp-dummy.m"; sourceTree = "<group>"; };
 		30D68E2C5307ACC2182F436FCB9A6CEF /* Pods-GearsSampleApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GearsSampleApp-umbrella.h"; sourceTree = "<group>"; };
-		3C4EDF473BC133458FD9612BCD0FB713 /* Optional+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Optional+Gears.swift"; sourceTree = "<group>"; };
-		496F59354885604119A3587C912127EE /* Gears.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gears.xcconfig; sourceTree = "<group>"; };
-		4A3655B81BD850DC13A260C617B7BD37 /* UIFont+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+Gears.swift"; sourceTree = "<group>"; };
-		4FF21351FB90C6CAFC8FE1AD07C9C015 /* UIViewController+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Gears.swift"; sourceTree = "<group>"; };
-		527263D2AA695C5787E82F6B3F05107A /* LabelStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LabelStyle.swift; sourceTree = "<group>"; };
-		72A2986089246E9EDFAA4F961AAD33DB /* ButtonStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
-		74BD7564A22A6EC083CEE98B543C3A42 /* Gears.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Gears.modulemap; sourceTree = "<group>"; };
+		4A97DC2D004D62227D312E3D0675E562 /* String+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Gears.swift"; sourceTree = "<group>"; };
+		5329B93AB1AC13AAA5F0C808F1FC041E /* Gears.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Gears.modulemap; sourceTree = "<group>"; };
+		534BF58D0E82A614C10BF62A4A30A9AD /* CGRect+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGRect+Gears.swift"; sourceTree = "<group>"; };
+		539BE16432B65505223F56AB9CEDD5DE /* UIViewController+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Gears.swift"; sourceTree = "<group>"; };
+		5DBBD7167A84A8B7F8117E763101EDFC /* TabBarStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarStyle.swift; sourceTree = "<group>"; };
+		5DD45CBD94AAC81E27C29C6ABC03F890 /* TextStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
+		63031D3055C733FDA856CCBDF7688734 /* ViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewStyle.swift; sourceTree = "<group>"; };
+		7069A8F2EE2DBDB56825CF37A4C0C3AC /* KeyboardNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeyboardNotification.swift; sourceTree = "<group>"; };
 		761940CF471A7ADEEDB05D6317FB7D14 /* Pods-GearsSampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GearsSampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7982A8CB533F563EB65F51A7F5B66FF7 /* UIEdgeInsets+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Gears.swift"; sourceTree = "<group>"; };
-		7CE42F2670C091ADC4D3FBB40D84141B /* Gears-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gears-umbrella.h"; sourceTree = "<group>"; };
-		7EC5CBAAB05C45589E4F99641E979F48 /* DataUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataUtils.swift; sourceTree = "<group>"; };
-		7EF6A500256687CDAC131EBE1D6586FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7C5EE8ED710769A20C458C6828B6B860 /* Gears-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gears-umbrella.h"; sourceTree = "<group>"; };
+		7D0BB61401154D1A94B940827C0F9AE8 /* DataUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataUtils.swift; sourceTree = "<group>"; };
 		81CB4FEF96135ABB19E2B7A609F906D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85EAD128404F3F08B83535D98AFC9BD2 /* NavigationBarStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavigationBarStyle.swift; sourceTree = "<group>"; };
 		8CC14D54CF483CF531F6412BFC589C4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		8D6BD6252F90539E181408DA2E62D26A /* TextViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextViewStyle.swift; sourceTree = "<group>"; };
+		949A33AC17FCB4B3A4A0553DB34AFC71 /* Optional+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Optional+Gears.swift"; sourceTree = "<group>"; };
 		962F7DDDBC94124015F30331DC96EA32 /* Pods_GearsSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GearsSampleApp.framework; path = "Pods-GearsSampleApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BAB5C8CB7120CAAD08B69DD9535BD8F /* Gears-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gears-dummy.m"; sourceTree = "<group>"; };
-		9BABA64D658CDD43A511F343D565BC98 /* TabBarStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarStyle.swift; sourceTree = "<group>"; };
-		9C1988B4701EEE2758712B17161CA619 /* Gears.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Gears.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9CA7BCFF8725F82204D431B7ABCC4351 /* Gears-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gears-prefix.pch"; sourceTree = "<group>"; };
 		9EBF2D663349327249C2B48D55AFAFC4 /* Pods-GearsSampleApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GearsSampleApp-resources.sh"; sourceTree = "<group>"; };
+		9EC6E5E2210749E09E2E064D2D8BCDFF /* LabelStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LabelStyle.swift; sourceTree = "<group>"; };
 		A2AF5EA4D9F769D41042A99A80FFB9ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A3114284C80411AC267DA49158833511 /* Pods-GearsSampleApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GearsSampleApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		B2C75F5E662F052FA7478958FBA0A161 /* String+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Gears.swift"; sourceTree = "<group>"; };
-		B2DAF819E67C7DADBD5B8B6889821D3F /* KeyboardObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
-		C0AB7F998CCC25AC1B65FE2DC610D88C /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
-		CDA104279E56E5ECE685B725017443D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		CFDC920FEAD0585A8AB9CFDE96AE7825 /* UIView+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Gears.swift"; sourceTree = "<group>"; };
+		A673403BCF9AA5B98B1C1BB14CABC921 /* Gears.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Gears.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC16EEF39E726352BBFD5B521B5BD5F5 /* Gears.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gears.xcconfig; sourceTree = "<group>"; };
+		B90EAE169F6100ACBFEA493C27B42994 /* KeyboardObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
+		C4DF5DF8F0D4E760CC3A47EB1FC470A3 /* Model.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C659B064C507D99E326AD0317E941903 /* Gears-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gears-prefix.pch"; sourceTree = "<group>"; };
+		CFD2B360BC42EF66514B1049F430661D /* Gears-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gears-dummy.m"; sourceTree = "<group>"; };
 		D484CFBFE2A7C64F31ED406CB49E7DDE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D809E08B131D732DC33DFC3612A93AF9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8DA896EB2329749CCBFBAA64D878410 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E05FB7BA49BBB552036EA6EAC0180BDF /* GlobalUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GlobalUtils.swift; sourceTree = "<group>"; };
 		EC955B2899B45E3B6F857CD0299F8981 /* Pods-GearsSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GearsSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
-		EFE682981D15144C9F9041FBFF6D2928 /* KeyboardNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeyboardNotification.swift; sourceTree = "<group>"; };
-		F10B484FA6ACAEA5B61825748C9CF9F0 /* CGRect+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGRect+Gears.swift"; sourceTree = "<group>"; };
-		F4E3E6317C1B2451704FF6ADE9AA7703 /* NavigationBarStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavigationBarStyle.swift; sourceTree = "<group>"; };
+		EF16489AA47031F769E520610590926E /* UIView+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Gears.swift"; sourceTree = "<group>"; };
+		F680B0F65083D81F765BECACF61B8451 /* UIColor+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Gears.swift"; sourceTree = "<group>"; };
+		F9D564831A473DFDE5AF16A478A64CB4 /* UIEdgeInsets+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Gears.swift"; sourceTree = "<group>"; };
 		FA47961904BC423F450397BBE65E9319 /* Gears.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Gears.framework; path = Gears.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAEE8BD0FE84CC48D1B019FA8E9A8FA7 /* ViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewStyle.swift; sourceTree = "<group>"; };
 		FBAF7A5693368718E01FA3038F39ACE3 /* Pods-GearsSampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GearsSampleApp-frameworks.sh"; sourceTree = "<group>"; };
-		FF30748BB3791AABCCD226EF09AC0BED /* Model.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FF0D853644E631F7DBC67444F6D0DBC1 /* UIFont+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+Gears.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A5B7518E9766E664F2DC40BC456D4423 /* Frameworks */ = {
+		4D6DB2AAB084D79944E2AEB8EAF8B738 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E951683F85474F257C781F74D8B76D /* CoreGraphics.framework in Frameworks */,
-				776251C2EB986781F83580805FC08668 /* Foundation.framework in Frameworks */,
-				E2F9779EF44B25EFE985F0B005D06F07 /* UIKit.framework in Frameworks */,
+				7892518021570593A928C2BEC221047A /* CoreGraphics.framework in Frameworks */,
+				CD44E89F60D86837B17CB480B5F66ECE /* Foundation.framework in Frameworks */,
+				526A20E45F89262FB35828FC1BF21F90 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +127,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		08C0D4E85A6F62EA42006DF651B830CC /* KeybaordObserver */ = {
+			isa = PBXGroup;
+			children = (
+				7069A8F2EE2DBDB56825CF37A4C0C3AC /* KeyboardNotification.swift */,
+				B90EAE169F6100ACBFEA493C27B42994 /* KeyboardObserver.swift */,
+			);
+			name = KeybaordObserver;
+			path = Sources/KeybaordObserver;
+			sourceTree = "<group>";
+		};
 		21972A5B762D1158858F4D386B5A886E /* Pods-GearsSampleApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,22 +155,6 @@
 			path = "Target Support Files/Pods-GearsSampleApp";
 			sourceTree = "<group>";
 		};
-		225076040231DFDD9C2468CB3C0A6D5B /* Gears */ = {
-			isa = PBXGroup;
-			children = (
-				7C201AA7AEEC4BD82BF0836F50613E00 /* Extensions */,
-				6A9E78ED3D6A446D0B965B046F9AB6FB /* KeybaordObserver */,
-				D73384DD17F8E6B9B99EBC3E00DD48C6 /* Models */,
-				F421D8B5A2AB40248A25CB9CAA398EF6 /* Pod */,
-				80AC4032D46DF19D92DA575820B50824 /* Styles */,
-				3E9BA5BD5D06A3546B5A7751965DFFA3 /* Support Files */,
-				D34E68A29F6AE7B9DFC09382C7B7B941 /* Utils */,
-				F2F6A42F5AD6F729B963356EACDD5132 /* Views */,
-			);
-			name = Gears;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		2DAB3A540B0A1F133F2D2CAF2AD96C27 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,65 +164,52 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3E9BA5BD5D06A3546B5A7751965DFFA3 /* Support Files */ = {
+		43CE517FDA04EED1390AD95240DDAE39 /* Gears */ = {
 			isa = PBXGroup;
 			children = (
-				74BD7564A22A6EC083CEE98B543C3A42 /* Gears.modulemap */,
-				496F59354885604119A3587C912127EE /* Gears.xcconfig */,
-				9BAB5C8CB7120CAAD08B69DD9535BD8F /* Gears-dummy.m */,
-				9CA7BCFF8725F82204D431B7ABCC4351 /* Gears-prefix.pch */,
-				7CE42F2670C091ADC4D3FBB40D84141B /* Gears-umbrella.h */,
-				D809E08B131D732DC33DFC3612A93AF9 /* Info.plist */,
+				A9D3B71500E8F0BC770FC4EB8194F46D /* Extensions */,
+				08C0D4E85A6F62EA42006DF651B830CC /* KeybaordObserver */,
+				D7B6A9315ED5CCB6E7091A4D1515E4ED /* Models */,
+				B31B8798F3FB28E636241CCDEC7A5295 /* Pod */,
+				460B2B6875A0C165F5EB41EDB19E6BAF /* Styles */,
+				F0DBC76DCBC16028C283CA3262F5A845 /* Support Files */,
+				AE224B23CDB5DC76942B1FDAA221F21D /* Utils */,
+				8BB080708C7ED741A423482F8CC75F3A /* Views */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Gears";
+			name = Gears;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		6A9E78ED3D6A446D0B965B046F9AB6FB /* KeybaordObserver */ = {
+		460B2B6875A0C165F5EB41EDB19E6BAF /* Styles */ = {
 			isa = PBXGroup;
 			children = (
-				EFE682981D15144C9F9041FBFF6D2928 /* KeyboardNotification.swift */,
-				B2DAF819E67C7DADBD5B8B6889821D3F /* KeyboardObserver.swift */,
+				027E16D4AAC9BEC37F1225374E7BF6A2 /* ButtonStyle.swift */,
+				9EC6E5E2210749E09E2E064D2D8BCDFF /* LabelStyle.swift */,
+				85EAD128404F3F08B83535D98AFC9BD2 /* NavigationBarStyle.swift */,
+				5DBBD7167A84A8B7F8117E763101EDFC /* TabBarStyle.swift */,
+				5DD45CBD94AAC81E27C29C6ABC03F890 /* TextStyle.swift */,
+				8D6BD6252F90539E181408DA2E62D26A /* TextViewStyle.swift */,
+				63031D3055C733FDA856CCBDF7688734 /* ViewStyle.swift */,
 			);
-			name = KeybaordObserver;
-			path = Sources/KeybaordObserver;
+			name = Styles;
+			path = Sources/Styles;
 			sourceTree = "<group>";
 		};
 		6FF2149B9FFF4CD8F21FBA1F69366980 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				225076040231DFDD9C2468CB3C0A6D5B /* Gears */,
+				43CE517FDA04EED1390AD95240DDAE39 /* Gears */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		7C201AA7AEEC4BD82BF0836F50613E00 /* Extensions */ = {
+		8BB080708C7ED741A423482F8CC75F3A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F10B484FA6ACAEA5B61825748C9CF9F0 /* CGRect+Gears.swift */,
-				3C4EDF473BC133458FD9612BCD0FB713 /* Optional+Gears.swift */,
-				B2C75F5E662F052FA7478958FBA0A161 /* String+Gears.swift */,
-				2E000E26DF7BEC8D488527E67FDE5312 /* UIColor+Gears.swift */,
-				7982A8CB533F563EB65F51A7F5B66FF7 /* UIEdgeInsets+Gears.swift */,
-				4A3655B81BD850DC13A260C617B7BD37 /* UIFont+Gears.swift */,
-				CFDC920FEAD0585A8AB9CFDE96AE7825 /* UIView+Gears.swift */,
-				4FF21351FB90C6CAFC8FE1AD07C9C015 /* UIViewController+Gears.swift */,
+				2C4C4E397722331269974ACF214AF751 /* GradientView.swift */,
 			);
-			name = Extensions;
-			path = Sources/Extensions;
-			sourceTree = "<group>";
-		};
-		80AC4032D46DF19D92DA575820B50824 /* Styles */ = {
-			isa = PBXGroup;
-			children = (
-				72A2986089246E9EDFAA4F961AAD33DB /* ButtonStyle.swift */,
-				527263D2AA695C5787E82F6B3F05107A /* LabelStyle.swift */,
-				F4E3E6317C1B2451704FF6ADE9AA7703 /* NavigationBarStyle.swift */,
-				9BABA64D658CDD43A511F343D565BC98 /* TabBarStyle.swift */,
-				FAEE8BD0FE84CC48D1B019FA8E9A8FA7 /* ViewStyle.swift */,
-			);
-			name = Styles;
-			path = Sources/Styles;
+			name = Views;
+			path = Sources/Views;
 			sourceTree = "<group>";
 		};
 		93921280F71FF63D72A6578F440C02D2 /* iOS */ = {
@@ -245,6 +230,42 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		A9D3B71500E8F0BC770FC4EB8194F46D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				534BF58D0E82A614C10BF62A4A30A9AD /* CGRect+Gears.swift */,
+				949A33AC17FCB4B3A4A0553DB34AFC71 /* Optional+Gears.swift */,
+				4A97DC2D004D62227D312E3D0675E562 /* String+Gears.swift */,
+				F680B0F65083D81F765BECACF61B8451 /* UIColor+Gears.swift */,
+				F9D564831A473DFDE5AF16A478A64CB4 /* UIEdgeInsets+Gears.swift */,
+				FF0D853644E631F7DBC67444F6D0DBC1 /* UIFont+Gears.swift */,
+				EF16489AA47031F769E520610590926E /* UIView+Gears.swift */,
+				539BE16432B65505223F56AB9CEDD5DE /* UIViewController+Gears.swift */,
+			);
+			name = Extensions;
+			path = Sources/Extensions;
+			sourceTree = "<group>";
+		};
+		AE224B23CDB5DC76942B1FDAA221F21D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7D0BB61401154D1A94B940827C0F9AE8 /* DataUtils.swift */,
+				E05FB7BA49BBB552036EA6EAC0180BDF /* GlobalUtils.swift */,
+			);
+			name = Utils;
+			path = Sources/Utils;
+			sourceTree = "<group>";
+		};
+		B31B8798F3FB28E636241CCDEC7A5295 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A673403BCF9AA5B98B1C1BB14CABC921 /* Gears.podspec */,
+				2C05DCC7422D9B658EDB12CBAB800C7D /* LICENSE */,
+				062FB8F2B09830FFD1BB21FBF83C768E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -256,42 +277,27 @@
 			);
 			sourceTree = "<group>";
 		};
-		D34E68A29F6AE7B9DFC09382C7B7B941 /* Utils */ = {
+		D7B6A9315ED5CCB6E7091A4D1515E4ED /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				7EC5CBAAB05C45589E4F99641E979F48 /* DataUtils.swift */,
-				2403406B51FE33051953B71AE8F63D87 /* GlobalUtils.swift */,
-			);
-			name = Utils;
-			path = Sources/Utils;
-			sourceTree = "<group>";
-		};
-		D73384DD17F8E6B9B99EBC3E00DD48C6 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				FF30748BB3791AABCCD226EF09AC0BED /* Model.swift */,
+				C4DF5DF8F0D4E760CC3A47EB1FC470A3 /* Model.swift */,
 			);
 			name = Models;
 			path = Sources/Models;
 			sourceTree = "<group>";
 		};
-		F2F6A42F5AD6F729B963356EACDD5132 /* Views */ = {
+		F0DBC76DCBC16028C283CA3262F5A845 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C0AB7F998CCC25AC1B65FE2DC610D88C /* GradientView.swift */,
+				5329B93AB1AC13AAA5F0C808F1FC041E /* Gears.modulemap */,
+				AC16EEF39E726352BBFD5B521B5BD5F5 /* Gears.xcconfig */,
+				CFD2B360BC42EF66514B1049F430661D /* Gears-dummy.m */,
+				C659B064C507D99E326AD0317E941903 /* Gears-prefix.pch */,
+				7C5EE8ED710769A20C458C6828B6B860 /* Gears-umbrella.h */,
+				D8DA896EB2329749CCBFBAA64D878410 /* Info.plist */,
 			);
-			name = Views;
-			path = Sources/Views;
-			sourceTree = "<group>";
-		};
-		F421D8B5A2AB40248A25CB9CAA398EF6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9C1988B4701EEE2758712B17161CA619 /* Gears.podspec */,
-				CDA104279E56E5ECE685B725017443D9 /* LICENSE */,
-				7EF6A500256687CDAC131EBE1D6586FC /* README.md */,
-			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Gears";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,17 +311,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8145A631FDDFEACE8219D0BF4068BEF /* Headers */ = {
+		E39295EC2B288021ABC0E3586ADCFED5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				014927275C3B4CCC65E66E1B5B2FEEF6 /* Gears-umbrella.h in Headers */,
+				E1E02D19EE2B82574A223FC33042ADEC /* Gears-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		19F2BC90E80F3B41F535A09EF19FF420 /* Gears */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78B688B23C2C065184BE7A3032089F9 /* Build configuration list for PBXNativeTarget "Gears" */;
+			buildPhases = (
+				E39295EC2B288021ABC0E3586ADCFED5 /* Headers */,
+				50051145C5AB9059D4607E78233CB8EF /* Sources */,
+				4D6DB2AAB084D79944E2AEB8EAF8B738 /* Frameworks */,
+				3D862432AFE8E65F5DC3084C5BCEAC9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gears;
+			productName = Gears;
+			productReference = FA47961904BC423F450397BBE65E9319 /* Gears.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		97AB9C0EEEF20AFAF94CAA0EA16DC720 /* Pods-GearsSampleApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 624061A5A8983FB70A3C73FE48CB16F1 /* Build configuration list for PBXNativeTarget "Pods-GearsSampleApp" */;
@@ -333,24 +357,6 @@
 			name = "Pods-GearsSampleApp";
 			productName = "Pods-GearsSampleApp";
 			productReference = 962F7DDDBC94124015F30331DC96EA32 /* Pods_GearsSampleApp.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9E9D5770C77852BA61BD9839FB143434 /* Gears */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 76966CEA0B1C65F93E0FBE2613ADD28D /* Build configuration list for PBXNativeTarget "Gears" */;
-			buildPhases = (
-				E8145A631FDDFEACE8219D0BF4068BEF /* Headers */,
-				1ACE8BEEA0790A551E59212BDA4CE8BF /* Sources */,
-				A5B7518E9766E664F2DC40BC456D4423 /* Frameworks */,
-				FF6AE52FBD92C8BAF10BB9A2BB9C8331 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Gears;
-			productName = Gears;
-			productReference = FA47961904BC423F450397BBE65E9319 /* Gears.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -374,7 +380,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9E9D5770C77852BA61BD9839FB143434 /* Gears */,
+				19F2BC90E80F3B41F535A09EF19FF420 /* Gears */,
 				97AB9C0EEEF20AFAF94CAA0EA16DC720 /* Pods-GearsSampleApp */,
 			);
 		};
@@ -388,7 +394,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF6AE52FBD92C8BAF10BB9A2BB9C8331 /* Resources */ = {
+		3D862432AFE8E65F5DC3084C5BCEAC9A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -398,30 +404,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1ACE8BEEA0790A551E59212BDA4CE8BF /* Sources */ = {
+		50051145C5AB9059D4607E78233CB8EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26DF9FE7A6C3D53F71C975D9E62D8D26 /* ButtonStyle.swift in Sources */,
-				3F4E1D4D51CAA6CDD03A4C6234C15E99 /* CGRect+Gears.swift in Sources */,
-				D08B5E8FA5FD9A1878DFADE486960392 /* DataUtils.swift in Sources */,
-				10D7FE688E53C48D1E49DB8DCA7113C5 /* Gears-dummy.m in Sources */,
-				57D96CFEEC6C2A44BFFBB8BAF0EA9200 /* GlobalUtils.swift in Sources */,
-				06948CF841A9E9CDBC3A882CD98F51E1 /* GradientView.swift in Sources */,
-				6E2F68F831A47FEEE2245CE3C2542941 /* KeyboardNotification.swift in Sources */,
-				DD0B6323917F1A285912C0C3AE819A54 /* KeyboardObserver.swift in Sources */,
-				2508180033C6F7D9BCBAA1BF0C75966A /* LabelStyle.swift in Sources */,
-				9B6BD9FA612240ACDA6558074A7F3E43 /* Model.swift in Sources */,
-				6D2C2E64DBE40AA8745A8B64CFDC705B /* NavigationBarStyle.swift in Sources */,
-				C0F138E70AED494FD88B5BDC47455DFE /* Optional+Gears.swift in Sources */,
-				294BD38773899C1918AEE9156C636A1D /* String+Gears.swift in Sources */,
-				02D1D7AC51CF1F457B62C9AE6FC3A184 /* TabBarStyle.swift in Sources */,
-				E452480124E15C2AB21B362ED52F10FD /* UIColor+Gears.swift in Sources */,
-				B61F5E32F51E75F78A2E7C8609FD851C /* UIEdgeInsets+Gears.swift in Sources */,
-				6C8B7E523DEFC642474E8E7634292DB9 /* UIFont+Gears.swift in Sources */,
-				9A74B22C7A4A85EE30488AF9083D1269 /* UIView+Gears.swift in Sources */,
-				095BCBFBAF6A493E05FE739B1CFB2480 /* UIViewController+Gears.swift in Sources */,
-				562E4AFB4095355B4094B58FD087209C /* ViewStyle.swift in Sources */,
+				8483AA2E50C2A7C67A308C4C1EA7E1B4 /* ButtonStyle.swift in Sources */,
+				56E39A9CB3B8DC3D8A7055E3F43D2DE6 /* CGRect+Gears.swift in Sources */,
+				BB46D45C9FE224A1A9484BA8E9835175 /* DataUtils.swift in Sources */,
+				AE6749535ED44E8071B170823383B504 /* Gears-dummy.m in Sources */,
+				9C7E66DEF1E5D42FDF09300024944787 /* GlobalUtils.swift in Sources */,
+				2228AA93ECD2DE03406543EB4CD32DDB /* GradientView.swift in Sources */,
+				EA7069DD01984AD0E5301B36EB29DDA5 /* KeyboardNotification.swift in Sources */,
+				EDB79FDD82EDBBE3ADA99DCA5FE25B9E /* KeyboardObserver.swift in Sources */,
+				1A3E283A45AEEACE489F2206858B6ADB /* LabelStyle.swift in Sources */,
+				567D432E3338A11E7B6EB545A1A5A7C8 /* Model.swift in Sources */,
+				8B323655A386A4733FEBFCD7B0B99FE5 /* NavigationBarStyle.swift in Sources */,
+				056E32734ED958DB317D9DBEFDF3E4C4 /* Optional+Gears.swift in Sources */,
+				2DAA7228236CC2C226009D3035AC2F08 /* String+Gears.swift in Sources */,
+				4D6FBEBB15E82CCB3526DD8C964A99EA /* TabBarStyle.swift in Sources */,
+				8A86619D49DE3D6931D0EE715024485D /* TextStyle.swift in Sources */,
+				86BE716A0201330792D7CD2ECDF5FD7B /* TextViewStyle.swift in Sources */,
+				2FE5BE3B69B821AB5B951BC3FA71CD15 /* UIColor+Gears.swift in Sources */,
+				AC7A979EE4C3B11D57F92C96AC1222FE /* UIEdgeInsets+Gears.swift in Sources */,
+				91ADAB02664D3EF30B429FA2300A609E /* UIFont+Gears.swift in Sources */,
+				0E47DEAADD312020DBFE133F7A67CC66 /* UIView+Gears.swift in Sources */,
+				2F0B8A8B0A39F3B56BD8584BBA244EDD /* UIViewController+Gears.swift in Sources */,
+				9AB56A6B22474342DE28D5A112DBE9D2 /* ViewStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,12 +447,75 @@
 		FA6E46C9A08E51E377715BB49BE6D349 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Gears;
-			target = 9E9D5770C77852BA61BD9839FB143434 /* Gears */;
+			target = 19F2BC90E80F3B41F535A09EF19FF420 /* Gears */;
 			targetProxy = A010248A025D616862BA13323C554D84 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		11095A5CADFFEEFD07DF26A8769FFF0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC16EEF39E726352BBFD5B521B5BD5F5 /* Gears.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Gears/Gears-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gears/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Gears/Gears.modulemap";
+				PRODUCT_MODULE_NAME = Gears;
+				PRODUCT_NAME = Gears;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1489E1ED3C146DCCD89BCA97DCFF57C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC16EEF39E726352BBFD5B521B5BD5F5 /* Gears.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Gears/Gears-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gears/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Gears/Gears.modulemap";
+				PRODUCT_MODULE_NAME = Gears;
+				PRODUCT_NAME = Gears;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		1D171616E9FA33086EB23CBBEE9C8D9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EC955B2899B45E3B6F857CD0299F8981 /* Pods-GearsSampleApp.debug.xcconfig */;
@@ -640,69 +711,6 @@
 			};
 			name = Debug;
 		};
-		CBF0E9DBC8B77DEEBCA55F131E1CA5E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 496F59354885604119A3587C912127EE /* Gears.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Gears/Gears-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Gears/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Gears/Gears.modulemap";
-				PRODUCT_MODULE_NAME = Gears;
-				PRODUCT_NAME = Gears;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EA9600780C03BADB2CCD556D9316BFA7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 496F59354885604119A3587C912127EE /* Gears.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Gears/Gears-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Gears/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Gears/Gears.modulemap";
-				PRODUCT_MODULE_NAME = Gears;
-				PRODUCT_NAME = Gears;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -724,11 +732,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76966CEA0B1C65F93E0FBE2613ADD28D /* Build configuration list for PBXNativeTarget "Gears" */ = {
+		F78B688B23C2C065184BE7A3032089F9 /* Build configuration list for PBXNativeTarget "Gears" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA9600780C03BADB2CCD556D9316BFA7 /* Debug */,
-				CBF0E9DBC8B77DEEBCA55F131E1CA5E4 /* Release */,
+				11095A5CADFFEEFD07DF26A8769FFF0C /* Debug */,
+				1489E1ED3C146DCCD89BCA97DCFF57C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

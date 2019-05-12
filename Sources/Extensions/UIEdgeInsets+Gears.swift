@@ -26,4 +26,28 @@ extension UIEdgeInsets {
     public init(right: CGFloat) {
         self.init(top: 0, left: 0, bottom: 0, right: right)
     }
+
+    public func insetBy(top: CGFloat) -> UIEdgeInsets {
+        return UIEdgeInsets(top: self.top + top, left: left, bottom: bottom, right: right)
+    }
+
+    public func insetBy(left: CGFloat) -> UIEdgeInsets {
+        return UIEdgeInsets(top: top, left: self.left + left, bottom: bottom, right: right)
+    }
+
+    public func insetBy(bottom: CGFloat) -> UIEdgeInsets {
+        return UIEdgeInsets(top: top, left: left, bottom: self.bottom + bottom, right: right)
+    }
+
+    public func insetBy(right: CGFloat) -> UIEdgeInsets {
+        return UIEdgeInsets(top: top, left: left, bottom: bottom, right: self.right + right)
+    }
+
+    public func insetBy(horizontal: CGFloat) -> UIEdgeInsets {
+        return UIEdgeInsets(top: top, left: left + horizontal/2, bottom: bottom, right: right + horizontal/2)
+    }
+
+    public func insetBy(vertical: CGFloat) -> UIEdgeInsets {
+        return UIEdgeInsets(top: top + vertical/2, left: left, bottom: bottom + vertical/2, right: right)
+    }
 }

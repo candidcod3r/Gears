@@ -17,7 +17,7 @@ public struct KeyboardNotification {
         return UIView.AnimationOptions(rawValue: UInt(animationCurve.rawValue << 16))
     }
 
-    init(name: Notification.Name,
+    public init(name: Notification.Name,
          keyboardBeginFrame: CGRect,
          keyboardEndFrame: CGRect,
          animationCurve: UIView.AnimationCurve,
@@ -29,7 +29,7 @@ public struct KeyboardNotification {
         self.animationDuration = animationDuration
     }
 
-    init?(notification: Notification) {
+    public init?(notification: Notification) {
         guard let userInfo = notification.userInfo else {
             return nil
         }

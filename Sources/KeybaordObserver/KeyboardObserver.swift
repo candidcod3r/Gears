@@ -36,6 +36,10 @@ open class KeyboardObserver {
         stopObserving()
     }
 
+    public init(observation: KeyboardNotificationObservation? = nil) {
+        self.observation = observation
+    }
+
     open func startObserving() {
         // stop the previous observers if any, just to be safe
         stopObserving()

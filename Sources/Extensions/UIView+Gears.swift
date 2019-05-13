@@ -43,6 +43,9 @@ extension UIView {
         }
     }
 
+    /**
+     Corner radius of the view.
+     */
     public var cornerRadius: CGFloat {
         get {
             return layer.cornerRadius
@@ -54,7 +57,7 @@ extension UIView {
     }
 
     /**
-     Utility method helpful for debugging purposes
+     Set borders for the view and subviews if applicable. Utility method helpful for debugging purposes.
      */
     public func setBorders(with color: UIColor? = nil, recursively: Bool = true) {
         let nonnilColor = color ?? .random
@@ -68,5 +71,19 @@ extension UIView {
         for subview in subviews {
             subview.setBorders(with: color, recursively: recursively)
         }
+    }
+
+    /**
+     Add shadow to view.
+     */
+    public func addShadow(ofColor color: UIColor = UIColor(0xEAEAEA),
+                          radius: CGFloat = 2,
+                          offset: CGSize = .zero,
+                          opacity: Float = 0.5) {
+        layer.shadowColor = color.cgColor
+        layer.shadowOffset = offset
+        layer.shadowRadius = radius
+        layer.shadowOpacity = opacity
+        layer.masksToBounds = false
     }
 }

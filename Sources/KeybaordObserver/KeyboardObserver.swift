@@ -65,7 +65,7 @@ open class KeyboardObserver {
         }
     }
 
-    // MARK:- Private methods
+    // MARK: - Private methods
 
     @objc private func handleNotification(_ notification: Notification) {
         guard let keyboardNotification = KeyboardNotification(notification: notification) else {

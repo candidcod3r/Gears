@@ -11,11 +11,10 @@ extension Array {
         return compactMap { ($0 as? T) }
     }
 
-    public subscript(index: Int) -> Element? {
+    public subscript(unsafe index: Int) -> Element? {
         guard index >= 0, index < endIndex else {
             return nil
         }
-
         return self[index]
     }
 }

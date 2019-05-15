@@ -21,7 +21,7 @@ extension UIView {
             return left + frame.size.width
         }
         set(newValue) {
-            frame.origin.x = newValue - frame.size.width
+            left = newValue - frame.size.width
         }
     }
     
@@ -39,7 +39,7 @@ extension UIView {
             return top + frame.size.height
         }
         set(newValue) {
-            frame.origin.y = newValue - frame.size.height
+            top = newValue - frame.size.height
         }
     }
 

@@ -93,7 +93,7 @@ extension UIView {
 extension UIView {
     public func handleTap(numberOfTaps: Int = 1, _ action: @escaping (_ recognizer: UITapGestureRecognizer) -> Void) {
         // remove old gesture recognizer if present
-        if let oldActionWrapper = objc_getAssociatedObject(self, &ViewKey.tapGesture) as? GestureActionWrapper {
+        if let oldActionWrapper = objc_getAssociatedObject(self, &ViewKey.tapGesture) as? TapGestureActionWrapper {
             removeGestureRecognizer(oldActionWrapper.recognizer)
         }
 
@@ -111,13 +111,13 @@ extension UIView {
     }
 
     @objc private func handleTapGesture(_ recognizer : UITapGestureRecognizer) {
-        let actionWrapper = objc_getAssociatedObject(self, &ViewKey.tapGesture) as? GestureActionWrapper
+        let actionWrapper = objc_getAssociatedObject(self, &ViewKey.tapGesture) as? TapGestureActionWrapper
         actionWrapper?.action(recognizer)
     }
 
     public func handlePan(_ action: @escaping (_ recognizer: UIPanGestureRecognizer) -> Void) {
         // remove old gesture recognizer if present
-        if let oldActionWrapper = objc_getAssociatedObject(self, &ViewKey.panGesture) as? GestureActionWrapper {
+        if let oldActionWrapper = objc_getAssociatedObject(self, &ViewKey.panGesture) as? PanGestureActionWrapper {
             removeGestureRecognizer(oldActionWrapper.recognizer)
         }
 
@@ -134,7 +134,7 @@ extension UIView {
     }
 
     @objc private func handlePanGesture(_ recognizer : UIPanGestureRecognizer) {
-        let actionWrapper = objc_getAssociatedObject(self, &ViewKey.panGesture) as? GestureActionWrapper
+        let actionWrapper = objc_getAssociatedObject(self, &ViewKey.panGesture) as? PanGestureActionWrapper
         actionWrapper?.action(recognizer)
     }
 }
@@ -153,3 +153,6 @@ fileprivate class GestureActionWrapper<Recognizer: UIGestureRecognizer>: NSObjec
         self.action = action
     }
 }
+
+fileprivate typealias TapGestureActionWrapper = GestureActionWrapper<UITapGestureRecognizer>
+fileprivate typealias PanGestureActionWrapper = GestureActionWrapper<UIPanGestureRecognizer>

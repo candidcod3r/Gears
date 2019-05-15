@@ -32,4 +32,12 @@ extension UIViewController {
         view.removeFromSuperview()
         removeFromParent()
     }
+
+    public var safeAreaInsets: UIEdgeInsets {
+        if #available(iOS 11.0, *) {
+            return view.safeAreaInsets
+        } else {
+            return .zero
+        }
+    }
 }

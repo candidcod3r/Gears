@@ -87,3 +87,69 @@ extension UIView {
         layer.masksToBounds = false
     }
 }
+
+// MARK: - Convenience gesture action helpers
+
+extension UIView {
+    public func handleTap(numberOfTaps: Int = 1, _ action: @escaping (_ recognizer: UITapGestureRecognizer) -> Void) {
+        // remove old gesture recognizer if present
+        if let oldActionWrapper = objc_getAssociatedObject(self, &ViewKey.tapGesture) as? GestureActionWrapper {
+            removeGestureRecognizer(oldActionWrapper.recognizer)
+        }
+
+        let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(handleTapGesture(_:)))
+        gestureRecognizer.numberOfTapsRequired = numberOfTaps
+
+        objc_setAssociatedObject(
+            self,
+            &ViewKey.tapGesture,
+            GestureActionWrapper(recognizer: gestureRecognizer, action: action),
+            objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+
+        isUserInteractionEnabled = true
+        addGestureRecognizer(gestureRecognizer)
+    }
+
+    @objc private func handleTapGesture(_ recognizer : UITapGestureRecognizer) {
+        let actionWrapper = objc_getAssociatedObject(self, &ViewKey.tapGesture) as? GestureActionWrapper
+        actionWrapper?.action(recognizer)
+    }
+
+    public func handlePan(_ action: @escaping (_ recognizer: UIPanGestureRecognizer) -> Void) {
+        // remove old gesture recognizer if present
+        if let oldActionWrapper = objc_getAssociatedObject(self, &ViewKey.panGesture) as? GestureActionWrapper {
+            removeGestureRecognizer(oldActionWrapper.recognizer)
+        }
+
+        let gestureRecognizer = UIPanGestureRecognizer(target: self, action: #selector(handlePanGesture(_:)))
+
+        objc_setAssociatedObject(
+            self,
+            &ViewKey.panGesture,
+            GestureActionWrapper(recognizer: gestureRecognizer, action: action),
+            objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+
+        isUserInteractionEnabled = true
+        addGestureRecognizer(gestureRecognizer)
+    }
+
+    @objc private func handlePanGesture(_ recognizer : UIPanGestureRecognizer) {
+        let actionWrapper = objc_getAssociatedObject(self, &ViewKey.panGesture) as? GestureActionWrapper
+        actionWrapper?.action(recognizer)
+    }
+}
+
+fileprivate struct ViewKey {
+    static var tapGesture: UInt8 = 0
+    static var panGesture: UInt8 = 0
+}
+
+fileprivate class GestureActionWrapper<Recognizer: UIGestureRecognizer>: NSObject {
+    var recognizer: Recognizer
+    var action: (_ recognizer: Recognizer) -> Void
+
+    init(recognizer: Recognizer, action: @escaping (_ recognizer: Recognizer) -> Void) {
+        self.recognizer = recognizer
+        self.action = action
+    }
+}

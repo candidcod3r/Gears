@@ -6,15 +6,6 @@
 //  Copyright © 2019 Sparkles. All rights reserved.
 //
 
-public enum KeyboardState {
-    case initial
-    case showing
-    case shown
-    case hiding
-    case hidden
-    case changing
-}
-
 /**
  Keyboard observer that listens on keyboard notifications and activates the observation block with or without
  animation. Typically this is intialized in a UIViewController and would call stopObserving on viewWillDisapper.
@@ -30,7 +21,8 @@ open class KeyboardObserver {
         UIResponder.keyboardWillChangeFrameNotification,
         UIResponder.keyboardDidChangeFrameNotification]
 
-    fileprivate var observation: KeyboardNotificationObservation?
+    private var observation: KeyboardNotificationObservation?
+    private var isObserving: Bool = false
 
     deinit {
         stopObserving()
@@ -44,20 +36,24 @@ open class KeyboardObserver {
         // stop the previous observers if any, just to be safe
         stopObserving()
 
+        isObserving = true
+
+        // subscribe to keyboard notifications
         KeyboardObserver.notifications.forEach {
             NotificationCenter.default.addObserver(self, selector: #selector(handleNotification(_:)), name: $0, object: nil)
         }
     }
 
     open func stopObserving() {
-        observation = nil
+        isObserving = false
 
+        // unsubscribe from keyboard notifications
         KeyboardObserver.notifications.forEach {
             NotificationCenter.default.removeObserver(self, name: $0, object: nil)
         }
     }
 
-    open func observation(_ observation: @escaping KeyboardNotificationObservation, inAnimation: Bool = false) {
+    open func observation(_ inAnimation: Bool = false, _ observation: @escaping KeyboardNotificationObservation) {
         if inAnimation {
             self.observation = KeyboardObserver.animationObservation(observation)
         } else {
@@ -68,7 +64,7 @@ open class KeyboardObserver {
     // MARK: - Private methods
 
     @objc private func handleNotification(_ notification: Notification) {
-        guard let keyboardNotification = KeyboardNotification(notification: notification) else {
+        guard isObserving, let keyboardNotification = KeyboardNotification(notification: notification) else {
             return
         }
 

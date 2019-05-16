@@ -9,14 +9,16 @@
 extension UIViewController {
     // Reference:
     // https://developer.apple.com/library/archive/featuredarticles/ViewControllerPGforiPhoneOS/ImplementingaContainerViewController.html
-    public func addChildViewController(_ child: UIViewController?) {
+    public func addChildViewController(_ child: UIViewController?, fillView: Bool = true) {
         guard let child = child else {
             return
         }
         
         addChild(child)
-        child.view.frame = view.bounds
-        child.view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        if fillView {
+            child.view.frame = view.bounds
+            child.view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        }
         view.addSubview(child.view)
         child.didMove(toParent: self)
     }

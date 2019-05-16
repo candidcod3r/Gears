@@ -32,6 +32,8 @@ open class GradientView: UIView {
     }
 
     private func setup() {
+        isUserInteractionEnabled = false
+        layer.shouldRasterize = true
     }
 
     private func insertGradientLayerIfNeeded() {

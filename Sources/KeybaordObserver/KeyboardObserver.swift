@@ -11,6 +11,9 @@
  animation. Typically this is intialized in a UIViewController and would call stopObserving on viewWillDisapper.
  */
 open class KeyboardObserver {
+
+    public static let defaultKeyboardHeight: CGFloat = 335
+
     public typealias KeyboardNotificationObservation = (KeyboardNotification) -> Void
 
     public static let notifications: [NSNotification.Name] = [
@@ -20,6 +23,11 @@ open class KeyboardObserver {
         UIResponder.keyboardDidHideNotification,
         UIResponder.keyboardWillChangeFrameNotification,
         UIResponder.keyboardDidChangeFrameNotification]
+
+    // Last known keyboard notification
+    public private(set) var lastKnownNotification: KeyboardNotification?
+
+    // MARK: - Private properties
 
     private var observation: KeyboardNotificationObservation?
     private var isObserving: Bool = false
@@ -68,6 +76,7 @@ open class KeyboardObserver {
             return
         }
 
+        lastKnownNotification = keyboardNotification
         observation?(keyboardNotification)
     }
 
@@ -82,5 +91,10 @@ open class KeyboardObserver {
             },
                 completion: nil)
         }
+    }
+
+    public static func animate(_ notification: KeyboardNotification, _ block: @escaping (KeyboardNotification) -> Void) {
+        let animation = animationObservation(block)
+        animation(notification)
     }
 }

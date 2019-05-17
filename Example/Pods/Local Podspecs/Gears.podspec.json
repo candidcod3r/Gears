@@ -1,6 +1,6 @@
 {
   "name": "Gears",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "summary": "A bootstrapping framework in Swift with useful extensions and helpful utils.",
   "description": "A bootstrapping framework in Swift with useful extensions and helpful utils. This helps with productivity and faster developments of apps.",
   "homepage": "https://github.com/candidcod3r/Gears",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/candidcod3r/Gears.git",
-    "tag": "1.2.0"
+    "tag": "1.2.1"
   },
   "platforms": {
     "ios": "8.0"

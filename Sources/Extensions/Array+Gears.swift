@@ -7,10 +7,16 @@
 //
 
 extension Array {
+    /**
+     Returns an array of elements which confirm to the given type
+     */
     public func `as`<T>(_ type: T.Type) -> [T] {
         return compactMap { ($0 as? T) }
     }
 
+    /**
+     Access unsafe subscript index of the array to return optional element
+     */
     public subscript(unsafe index: Int) -> Element? {
         guard index >= 0, index < endIndex else {
             return nil

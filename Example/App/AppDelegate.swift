@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
 
-        let navigationVC = UINavigationController(rootViewController: ViewController())
+        let navigationVC = UINavigationController(rootViewController: TestTextViewPlaceholderViewController())
         navigationVC.navigationBar.isTranslucent = false
         window?.rootViewController = navigationVC
         window?.makeKeyAndVisible()

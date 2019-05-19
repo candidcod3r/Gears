@@ -59,7 +59,7 @@
 		0F816069ABCE4C5489692003064D7D3F /* UICollectionView+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Gears.swift"; sourceTree = "<group>"; };
 		134A8BBD6550FF0FF99C3A0847D2D498 /* UIImage+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Gears.swift"; sourceTree = "<group>"; };
 		147ADDCF6B7BA3822FBD0920A7F84D3C /* Pods-GearsSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GearsSampleApp.release.xcconfig"; sourceTree = "<group>"; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		25DD9E43415875F8CD52FBF9EE60B3FB /* CGRect+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGRect+Gears.swift"; sourceTree = "<group>"; };
 		2CBAADAE39E81BA33AF58F341A3D90EA /* Pods-GearsSampleApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GearsSampleApp.modulemap"; sourceTree = "<group>"; };
 		2E8DC525E4F62110CFD1EF0004B31552 /* Pods-GearsSampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GearsSampleApp-dummy.m"; sourceTree = "<group>"; };
@@ -74,17 +74,17 @@
 		4E42AF8D97F048B5EEE2CD055EADE24A /* TabBarStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarStyle.swift; sourceTree = "<group>"; };
 		4FEF356079281D5527D8589501FB2463 /* DataUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataUtils.swift; sourceTree = "<group>"; };
 		548C692D75047B53D9F39F930971F31B /* String+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Gears.swift"; sourceTree = "<group>"; };
-		5979964EE014ABE3EBAB2E1A0986A506 /* Gears.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Gears.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5979964EE014ABE3EBAB2E1A0986A506 /* Gears.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Gears.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6781D0A079198984AADE75D729A539B0 /* Collection+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Collection+Gears.swift"; sourceTree = "<group>"; };
 		6FE4256392FBD6208AB15780F965E1BD /* UIView+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Gears.swift"; sourceTree = "<group>"; };
 		761940CF471A7ADEEDB05D6317FB7D14 /* Pods-GearsSampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GearsSampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		81CB4FEF96135ABB19E2B7A609F906D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		848F8ABA5A53C30FD215212256E90349 /* Array+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Gears.swift"; sourceTree = "<group>"; };
-		880532FD5B4460F528FF87D60C3293E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		8C482A19EDAF0CFC411D2309415E6D03 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		880532FD5B4460F528FF87D60C3293E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8C482A19EDAF0CFC411D2309415E6D03 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		8CC14D54CF483CF531F6412BFC589C4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		8DAE239E77DA5AFB38A39F10AAEF7B50 /* Gears-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gears-umbrella.h"; sourceTree = "<group>"; };
-		962F7DDDBC94124015F30331DC96EA32 /* Pods_GearsSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GearsSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		962F7DDDBC94124015F30331DC96EA32 /* Pods_GearsSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GearsSampleApp.framework; path = "Pods-GearsSampleApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97AD5C4BAFCCB583D2833B65BD636097 /* ButtonStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		9855EC93DFE1A31E76C19A07092D1B5C /* NSObject+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSObject+Gears.swift"; sourceTree = "<group>"; };
 		9C864ACF3C1149EE4F694DEAC58573A6 /* ViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewStyle.swift; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 		EC955B2899B45E3B6F857CD0299F8981 /* Pods-GearsSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GearsSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		EDE09B807B4CB28AC64550D2014532E2 /* LabelStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LabelStyle.swift; sourceTree = "<group>"; };
 		F3E2C2290C7955EE7713185524DD51C4 /* UITextView+Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextView+Placeholder.swift"; sourceTree = "<group>"; };
-		FA47961904BC423F450397BBE65E9319 /* Gears.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gears.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA47961904BC423F450397BBE65E9319 /* Gears.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Gears.framework; path = Gears.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBAF7A5693368718E01FA3038F39ACE3 /* Pods-GearsSampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GearsSampleApp-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -393,14 +393,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -621,7 +620,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -673,7 +671,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -683,7 +682,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

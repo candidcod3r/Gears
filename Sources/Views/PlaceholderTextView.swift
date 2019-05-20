@@ -1,5 +1,5 @@
 //
-//  UITextView+Placeholder.swift
+//  PlaceholderTextView.swift
 //  Gears
 //
 //  Created by Candid Cod3r on 5/18/19.
@@ -10,7 +10,7 @@ fileprivate struct Key {
     static var textView: UInt8 = 0
 }
 
-public class PlaceholderTextView: UITextView {
+class PlaceholderTextView: UITextView {
 
     struct Constant {
         static let defaultTextColor = UIColor(0xC1C1C1)
@@ -30,25 +30,25 @@ public class PlaceholderTextView: UITextView {
         }
     }
 
-    public override var text: String? {
+    override var text: String? {
         didSet {
             update()
         }
     }
 
-    public override var textColor: UIColor? {
+    override var textColor: UIColor? {
         didSet {
             update()
         }
     }
 
-    public override var attributedText: NSAttributedString? {
+    override var attributedText: NSAttributedString? {
         didSet {
             update()
         }
     }
 
-    public override init(frame: CGRect, textContainer: NSTextContainer?) {
+    override init(frame: CGRect, textContainer: NSTextContainer?) {
         super.init(frame: frame, textContainer: textContainer)
 
         commonInit()

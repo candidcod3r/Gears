@@ -7,41 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14165C55672A6888DBED3A8F685B448C /* Gears-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF850A21296635639655F951E2C46BD /* Gears-dummy.m */; };
+		01F7C7666284115367AD5E9A3055CE55 /* UIView+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = F811403EE8696347F0D660AE54847FDD /* UIView+Gears.swift */; };
+		11E1F2B9CFA0B6409EB743A182FE9874 /* LabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EA409C07AE13CC3AB947B228F1C606 /* LabelStyle.swift */; };
 		159F734DEF06E9C88FDC552BEFF102EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2AF5EA4D9F769D41042A99A80FFB9ED /* Foundation.framework */; };
-		23B6EC70A9B6019D8395DA43B6416613 /* UIEdgeInsets+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = E615DA93ADBE588F103028E83E80B808 /* UIEdgeInsets+Gears.swift */; };
-		24D2FE9D8275366BD52ADF984B219EE9 /* DataUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF356079281D5527D8589501FB2463 /* DataUtils.swift */; };
-		2C38163375A191FC6EFD3176ED6FBAA2 /* String+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548C692D75047B53D9F39F930971F31B /* String+Gears.swift */; };
-		30E90A7AB90D181D54CF44A1301D3184 /* TabBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42AF8D97F048B5EEE2CD055EADE24A /* TabBarStyle.swift */; };
-		333D65244800857CBD1EC038FF15E1D1 /* Array+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F8ABA5A53C30FD215212256E90349 /* Array+Gears.swift */; };
-		367B16B4E977C276584A3026C8ACA798 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AD5C4BAFCCB583D2833B65BD636097 /* ButtonStyle.swift */; };
-		3755B579E8C23954DC688A8705CA7F1C /* KeyboardNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35976AD31B3474A1E256CED3AF7C2B7 /* KeyboardNotification.swift */; };
-		4C915A77DDC79A6C8D84EE0FCD566F60 /* Collection+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6781D0A079198984AADE75D729A539B0 /* Collection+Gears.swift */; };
+		1BE99C96D97098B52BA8C56C14B914FF /* UIEdgeInsets+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F16173C21F702BED00C336D9641409 /* UIEdgeInsets+Gears.swift */; };
+		28AC3611047C8C414278EB1A1E4506D6 /* Array+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F325F12025407A5563ABC03AE2016FF /* Array+Gears.swift */; };
+		37D8336044D37836BB039C2DF2C16996 /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA9E8C48171CB0F568FDEC23786E90 /* PlaceholderTextView.swift */; };
+		3D1DD4045A29696D9469EFAFEDF60E44 /* Optional+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E2902A0F2C25CD9C6E3F2EE34CB429 /* Optional+Gears.swift */; };
+		46C7BB2F7A57385B3E06168FCB64B00C /* ViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220349E70837A9C6859C7196CA091B88 /* ViewStyle.swift */; };
+		4B6153DDDC323285A401BB69868DA0FE /* UIFont+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7191737EF74B4BD5740FF085E27A6A78 /* UIFont+Gears.swift */; };
 		4C9C71EFE57FC9CFBFD008A508E87734 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D484CFBFE2A7C64F31ED406CB49E7DDE /* UIKit.framework */; };
-		50582D70C3C8D8BC6FE4924CEBE58BAC /* UIViewController+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438BAA134A0F2DDE878905EFDB6FCDE5 /* UIViewController+Gears.swift */; };
+		518E99E88861D0AFAACA9C4FE0D77DE2 /* UIViewController+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052855D0FB96977749635DB8224CCCEB /* UIViewController+Gears.swift */; };
 		51A56CAC1F3BA678D19AA2B2DBACC012 /* Pods-GearsSampleApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30D68E2C5307ACC2182F436FCB9A6CEF /* Pods-GearsSampleApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		560B27F08A2586C03C0D20F2603B360F /* ViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C864ACF3C1149EE4F694DEAC58573A6 /* ViewStyle.swift */; };
 		577390338AFC6C18C5D41385C71C8A65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC14D54CF483CF531F6412BFC589C4B /* CoreGraphics.framework */; };
-		5A2694B0558BF540EAC8E451825FFB14 /* UICollectionView+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F816069ABCE4C5489692003064D7D3F /* UICollectionView+Gears.swift */; };
-		76652AFB9F30BF556A945417F5CA8957 /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496BDE4A1333B08133680B3DE0F7A5F8 /* TextStyle.swift */; };
-		8821B4A5F740A4DD1AFF8272F802509D /* CGRect+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DD9E43415875F8CD52FBF9EE60B3FB /* CGRect+Gears.swift */; };
-		8CE69AD2B22DC3AAE0AB321C2992A92C /* Gears-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DAE239E77DA5AFB38A39F10AAEF7B50 /* Gears-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FD67E67EAE5B4F39CE837358FFC59E4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C606374D02D5A6735711BB651ADCE98E /* Model.swift */; };
+		58E3DD4037C07BB86B09D6E0C8FD4FCE /* TabBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB716BEEC8AFFEB5EB75414F83EB235 /* TabBarStyle.swift */; };
+		699F884668D475DC0D097E3B9A2978B7 /* Gears-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DA32061B38E9D5E5C0390B7141F982 /* Gears-dummy.m */; };
+		6AD2E5E1D89E80FC1765E45888B644A4 /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641DA6706948C9D24A10E69758C5F07 /* TextStyle.swift */; };
+		75A0CD2B1B38D16BAC79D44646568811 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1680A37BDD5235810B11A3E8B4D3E3EF /* KeyboardObserver.swift */; };
+		75D543557E1A86A894F818A155321B18 /* Collection+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755B77A1CB0BD3B1B30F665280F6FA2A /* Collection+Gears.swift */; };
+		841662FE7B013020ACFDC7AE073B7527 /* DataUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D419785C7E091BC67CFCCAFCC1593FE2 /* DataUtils.swift */; };
+		853A3FC361E957B5A314721D0B85C86A /* NavigationBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5194EAA533A53C0FBBF58EC95C10028E /* NavigationBarStyle.swift */; };
+		881B9CCB8D105078EA0472564A343E71 /* NSObject+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBC160734933E884686B2881E747206 /* NSObject+Gears.swift */; };
+		8B0B3BD08A625C4484A10C2CC0977E97 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A2A0513792134889B438EC171BC26 /* Model.swift */; };
+		8CE69AD2B22DC3AAE0AB321C2992A92C /* Gears-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7C73F02CA04A7FA2741645CEE3F391A /* Gears-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E6DC86BC48D61D0DA018180765B42CF /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC59A0E83E49801346AA1FC2D2687207 /* GradientView.swift */; };
+		942230FCDC2BD054A1F35642CC4E146E /* KeyboardNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84681EEDD5B756C0772F0054D40ED194 /* KeyboardNotification.swift */; };
 		9725E324B5A37C74EEF33305DB4E7B97 /* Pods-GearsSampleApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8DC525E4F62110CFD1EF0004B31552 /* Pods-GearsSampleApp-dummy.m */; };
 		9B616EA7548F4CA1C0D5B14BA2F6426D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2AF5EA4D9F769D41042A99A80FFB9ED /* Foundation.framework */; };
-		A11DB34BB75CDCD5DB142C11666AAF96 /* UIFont+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBB1C4575947D3C1290E534E5AC0FF0 /* UIFont+Gears.swift */; };
-		A13FE4651D8ACBAFE8CE1032117031F7 /* NSObject+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9855EC93DFE1A31E76C19A07092D1B5C /* NSObject+Gears.swift */; };
-		A2ED843A97FBAA5ECEBFBF367053B9E5 /* UIView+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE4256392FBD6208AB15780F965E1BD /* UIView+Gears.swift */; };
-		A9D0BA43AEA5FF92E4DAB7851158C396 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFD73AC95406BC84B95AA415539C75 /* KeyboardObserver.swift */; };
-		AC01AB9D709B76D8E6FA7CEE7B67CAE3 /* UIColor+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9CC8039DDD820CECEFDFA8A9E66AA3 /* UIColor+Gears.swift */; };
-		B9C231517A0D87D081B9A2633326EDF5 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06A8393CAA47F6926DD6619343904F4 /* GradientView.swift */; };
-		C4D5577B576CB47436CB23D3DF58EAC1 /* NavigationBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC87A4D72F3123C486A7C2438BBCA8A3 /* NavigationBarStyle.swift */; };
-		CAECABCACA842CEA3E52F9F5D0862B1F /* TextViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4141DBE554DD0636A85F2CEF04DF3820 /* TextViewStyle.swift */; };
-		CD06A65038A4BFA919C3AFC5671B83A5 /* UITextView+Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E2C2290C7955EE7713185524DD51C4 /* UITextView+Placeholder.swift */; };
-		CE5D39995C5571236E13E11B592F8D76 /* UIImage+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134A8BBD6550FF0FF99C3A0847D2D498 /* UIImage+Gears.swift */; };
-		DDCDB3334699D3FBE34E4AFC17243604 /* LabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE09B807B4CB28AC64550D2014532E2 /* LabelStyle.swift */; };
-		E15488AB57C6B48BBA4F7E992FBD1ED6 /* GlobalUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA552709D6794FC16FFB98E1636CE87 /* GlobalUtils.swift */; };
-		F3D915DFA4371751FC3E1A4C6AEF4C3F /* Optional+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DD3F756A6507D36750E73807EC0598 /* Optional+Gears.swift */; };
+		B01A5B7BF963D1778AFEC974472F6879 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A8029970413153E14CE42E289FDC7C /* ButtonStyle.swift */; };
+		B1ECF47ECD8EBE7C72C6A103117BA098 /* GlobalUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CD527D5120998B5C23974A815EDD66 /* GlobalUtils.swift */; };
+		B57CC5F6F0A1FC8C0A59E42831A365CD /* TextViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6129FC6AEF32664F44E46B0A70E7FC39 /* TextViewStyle.swift */; };
+		C67A66B5B729350EE41FF3B3634200F3 /* UIImage+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865940445F389388AE78EBAEE998422A /* UIImage+Gears.swift */; };
+		CC05E099E28EC9FE1BFA3E36DBDA09C6 /* UIColor+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3169566688CA381C62281446DCC7703C /* UIColor+Gears.swift */; };
+		E1EAB6A9B43D24955851DE0B0C9CD032 /* String+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6EC837F726A343FC33CE2B936B523 /* String+Gears.swift */; };
+		F70ED2BF099FCE85740AFB762DBB9099 /* UICollectionView+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909354F4992D2A64E4C8F22D26CAC57E /* UICollectionView+Gears.swift */; };
+		FCF47C4FA83C18125594FCE2EB77FA5E /* CGRect+Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2A9052369B0E0B97060C4811E4E43A /* CGRect+Gears.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,56 +55,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00AE76B4540B6A10785164B7561C6AAF /* Gears-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gears-prefix.pch"; sourceTree = "<group>"; };
-		0F816069ABCE4C5489692003064D7D3F /* UICollectionView+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Gears.swift"; sourceTree = "<group>"; };
-		134A8BBD6550FF0FF99C3A0847D2D498 /* UIImage+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Gears.swift"; sourceTree = "<group>"; };
+		048A2A0513792134889B438EC171BC26 /* Model.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		052855D0FB96977749635DB8224CCCEB /* UIViewController+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Gears.swift"; sourceTree = "<group>"; };
+		0CD6EC837F726A343FC33CE2B936B523 /* String+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Gears.swift"; sourceTree = "<group>"; };
+		0F37291594B256DFD533EA36BBDBE94E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		147ADDCF6B7BA3822FBD0920A7F84D3C /* Pods-GearsSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GearsSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		15A8029970413153E14CE42E289FDC7C /* ButtonStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		1680A37BDD5235810B11A3E8B4D3E3EF /* KeyboardObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
+		1FB716BEEC8AFFEB5EB75414F83EB235 /* TabBarStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarStyle.swift; sourceTree = "<group>"; };
+		220349E70837A9C6859C7196CA091B88 /* ViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewStyle.swift; sourceTree = "<group>"; };
 		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		25DD9E43415875F8CD52FBF9EE60B3FB /* CGRect+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGRect+Gears.swift"; sourceTree = "<group>"; };
 		2CBAADAE39E81BA33AF58F341A3D90EA /* Pods-GearsSampleApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GearsSampleApp.modulemap"; sourceTree = "<group>"; };
 		2E8DC525E4F62110CFD1EF0004B31552 /* Pods-GearsSampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GearsSampleApp-dummy.m"; sourceTree = "<group>"; };
 		30D68E2C5307ACC2182F436FCB9A6CEF /* Pods-GearsSampleApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GearsSampleApp-umbrella.h"; sourceTree = "<group>"; };
-		3CBB1C4575947D3C1290E534E5AC0FF0 /* UIFont+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+Gears.swift"; sourceTree = "<group>"; };
-		3DA552709D6794FC16FFB98E1636CE87 /* GlobalUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GlobalUtils.swift; sourceTree = "<group>"; };
-		4141DBE554DD0636A85F2CEF04DF3820 /* TextViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextViewStyle.swift; sourceTree = "<group>"; };
-		438BAA134A0F2DDE878905EFDB6FCDE5 /* UIViewController+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Gears.swift"; sourceTree = "<group>"; };
-		45DD3F756A6507D36750E73807EC0598 /* Optional+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Optional+Gears.swift"; sourceTree = "<group>"; };
-		496BDE4A1333B08133680B3DE0F7A5F8 /* TextStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
-		4C2F861499DAF78CD8F171890FE78381 /* Gears.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gears.xcconfig; sourceTree = "<group>"; };
-		4E42AF8D97F048B5EEE2CD055EADE24A /* TabBarStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarStyle.swift; sourceTree = "<group>"; };
-		4FEF356079281D5527D8589501FB2463 /* DataUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataUtils.swift; sourceTree = "<group>"; };
-		548C692D75047B53D9F39F930971F31B /* String+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Gears.swift"; sourceTree = "<group>"; };
-		5979964EE014ABE3EBAB2E1A0986A506 /* Gears.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Gears.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6781D0A079198984AADE75D729A539B0 /* Collection+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Collection+Gears.swift"; sourceTree = "<group>"; };
-		6FE4256392FBD6208AB15780F965E1BD /* UIView+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Gears.swift"; sourceTree = "<group>"; };
+		3169566688CA381C62281446DCC7703C /* UIColor+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Gears.swift"; sourceTree = "<group>"; };
+		4641DA6706948C9D24A10E69758C5F07 /* TextStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
+		50CD527D5120998B5C23974A815EDD66 /* GlobalUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GlobalUtils.swift; sourceTree = "<group>"; };
+		5194EAA533A53C0FBBF58EC95C10028E /* NavigationBarStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavigationBarStyle.swift; sourceTree = "<group>"; };
+		58F16173C21F702BED00C336D9641409 /* UIEdgeInsets+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Gears.swift"; sourceTree = "<group>"; };
+		6129FC6AEF32664F44E46B0A70E7FC39 /* TextViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextViewStyle.swift; sourceTree = "<group>"; };
+		65E2902A0F2C25CD9C6E3F2EE34CB429 /* Optional+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Optional+Gears.swift"; sourceTree = "<group>"; };
+		6F325F12025407A5563ABC03AE2016FF /* Array+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Gears.swift"; sourceTree = "<group>"; };
+		7191737EF74B4BD5740FF085E27A6A78 /* UIFont+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+Gears.swift"; sourceTree = "<group>"; };
+		755B77A1CB0BD3B1B30F665280F6FA2A /* Collection+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Collection+Gears.swift"; sourceTree = "<group>"; };
 		761940CF471A7ADEEDB05D6317FB7D14 /* Pods-GearsSampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GearsSampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		81CB4FEF96135ABB19E2B7A609F906D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		848F8ABA5A53C30FD215212256E90349 /* Array+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Gears.swift"; sourceTree = "<group>"; };
-		880532FD5B4460F528FF87D60C3293E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		8C482A19EDAF0CFC411D2309415E6D03 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		84681EEDD5B756C0772F0054D40ED194 /* KeyboardNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeyboardNotification.swift; sourceTree = "<group>"; };
+		865940445F389388AE78EBAEE998422A /* UIImage+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Gears.swift"; sourceTree = "<group>"; };
 		8CC14D54CF483CF531F6412BFC589C4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		8DAE239E77DA5AFB38A39F10AAEF7B50 /* Gears-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gears-umbrella.h"; sourceTree = "<group>"; };
+		909354F4992D2A64E4C8F22D26CAC57E /* UICollectionView+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Gears.swift"; sourceTree = "<group>"; };
+		94EA409C07AE13CC3AB947B228F1C606 /* LabelStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LabelStyle.swift; sourceTree = "<group>"; };
 		962F7DDDBC94124015F30331DC96EA32 /* Pods_GearsSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GearsSampleApp.framework; path = "Pods-GearsSampleApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		97AD5C4BAFCCB583D2833B65BD636097 /* ButtonStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
-		9855EC93DFE1A31E76C19A07092D1B5C /* NSObject+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSObject+Gears.swift"; sourceTree = "<group>"; };
-		9C864ACF3C1149EE4F694DEAC58573A6 /* ViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewStyle.swift; sourceTree = "<group>"; };
-		9CF850A21296635639655F951E2C46BD /* Gears-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gears-dummy.m"; sourceTree = "<group>"; };
+		9C3FBFD9FFB6E860A1925F6CA8AA0E22 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9EBF2D663349327249C2B48D55AFAFC4 /* Pods-GearsSampleApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GearsSampleApp-resources.sh"; sourceTree = "<group>"; };
-		A06A8393CAA47F6926DD6619343904F4 /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		A2AF5EA4D9F769D41042A99A80FFB9ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A3114284C80411AC267DA49158833511 /* Pods-GearsSampleApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GearsSampleApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		C35976AD31B3474A1E256CED3AF7C2B7 /* KeyboardNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeyboardNotification.swift; sourceTree = "<group>"; };
-		C606374D02D5A6735711BB651ADCE98E /* Model.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		C65889A6A962340881D1EA4E97EDF449 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C74925484D301C6A7B4C403C11C78B10 /* Gears.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Gears.modulemap; sourceTree = "<group>"; };
-		CC87A4D72F3123C486A7C2438BBCA8A3 /* NavigationBarStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavigationBarStyle.swift; sourceTree = "<group>"; };
+		AD12486DF0BC9D059550B32C9ACF26B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8DA32061B38E9D5E5C0390B7141F982 /* Gears-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gears-dummy.m"; sourceTree = "<group>"; };
+		B8EAFE550E29E3F738E7D3F5518CAC47 /* Gears.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Gears.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D419785C7E091BC67CFCCAFCC1593FE2 /* DataUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataUtils.swift; sourceTree = "<group>"; };
 		D484CFBFE2A7C64F31ED406CB49E7DDE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		DE9CC8039DDD820CECEFDFA8A9E66AA3 /* UIColor+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Gears.swift"; sourceTree = "<group>"; };
-		E2EFD73AC95406BC84B95AA415539C75 /* KeyboardObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
-		E615DA93ADBE588F103028E83E80B808 /* UIEdgeInsets+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Gears.swift"; sourceTree = "<group>"; };
+		D7C73F02CA04A7FA2741645CEE3F391A /* Gears-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gears-umbrella.h"; sourceTree = "<group>"; };
+		DFEA9E8C48171CB0F568FDEC23786E90 /* PlaceholderTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
+		EA0D5360456A61E634DE9E8C4FCB57DF /* Gears-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gears-prefix.pch"; sourceTree = "<group>"; };
+		EC59A0E83E49801346AA1FC2D2687207 /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		EC955B2899B45E3B6F857CD0299F8981 /* Pods-GearsSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GearsSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
-		EDE09B807B4CB28AC64550D2014532E2 /* LabelStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LabelStyle.swift; sourceTree = "<group>"; };
-		F3E2C2290C7955EE7713185524DD51C4 /* UITextView+Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextView+Placeholder.swift"; sourceTree = "<group>"; };
+		ECCB68269E9FE4DDA84EAD2701C96E61 /* Gears.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gears.xcconfig; sourceTree = "<group>"; };
+		EEBC160734933E884686B2881E747206 /* NSObject+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSObject+Gears.swift"; sourceTree = "<group>"; };
+		EF2A9052369B0E0B97060C4811E4E43A /* CGRect+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGRect+Gears.swift"; sourceTree = "<group>"; };
+		F2F8D3A4D581E23DDB4B7E55C3F90295 /* Gears.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Gears.modulemap; sourceTree = "<group>"; };
+		F811403EE8696347F0D660AE54847FDD /* UIView+Gears.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Gears.swift"; sourceTree = "<group>"; };
 		FA47961904BC423F450397BBE65E9319 /* Gears.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Gears.framework; path = Gears.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBAF7A5693368718E01FA3038F39ACE3 /* Pods-GearsSampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GearsSampleApp-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,37 +139,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		05EEB31325ADC66DE449E0233E4B3BF3 /* Keybaord Observer */ = {
-			isa = PBXGroup;
-			children = (
-				C35976AD31B3474A1E256CED3AF7C2B7 /* KeyboardNotification.swift */,
-				E2EFD73AC95406BC84B95AA415539C75 /* KeyboardObserver.swift */,
-			);
-			name = "Keybaord Observer";
-			path = "Sources/Keybaord Observer";
-			sourceTree = "<group>";
-		};
-		19A93AE1081BD5651A7C1B02B8A834CC /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				848F8ABA5A53C30FD215212256E90349 /* Array+Gears.swift */,
-				25DD9E43415875F8CD52FBF9EE60B3FB /* CGRect+Gears.swift */,
-				6781D0A079198984AADE75D729A539B0 /* Collection+Gears.swift */,
-				9855EC93DFE1A31E76C19A07092D1B5C /* NSObject+Gears.swift */,
-				45DD3F756A6507D36750E73807EC0598 /* Optional+Gears.swift */,
-				548C692D75047B53D9F39F930971F31B /* String+Gears.swift */,
-				0F816069ABCE4C5489692003064D7D3F /* UICollectionView+Gears.swift */,
-				DE9CC8039DDD820CECEFDFA8A9E66AA3 /* UIColor+Gears.swift */,
-				E615DA93ADBE588F103028E83E80B808 /* UIEdgeInsets+Gears.swift */,
-				3CBB1C4575947D3C1290E534E5AC0FF0 /* UIFont+Gears.swift */,
-				134A8BBD6550FF0FF99C3A0847D2D498 /* UIImage+Gears.swift */,
-				6FE4256392FBD6208AB15780F965E1BD /* UIView+Gears.swift */,
-				438BAA134A0F2DDE878905EFDB6FCDE5 /* UIViewController+Gears.swift */,
-			);
-			name = Extensions;
-			path = Sources/Extensions;
-			sourceTree = "<group>";
-		};
 		21972A5B762D1158858F4D386B5A886E /* Pods-GearsSampleApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,38 +166,55 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4719553E5D0CDBE1BDC9CBFEAD7A4238 /* Views */ = {
+		319A7BE24DD945C68DBF9973666B2A81 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A06A8393CAA47F6926DD6619343904F4 /* GradientView.swift */,
+				F2F8D3A4D581E23DDB4B7E55C3F90295 /* Gears.modulemap */,
+				ECCB68269E9FE4DDA84EAD2701C96E61 /* Gears.xcconfig */,
+				B8DA32061B38E9D5E5C0390B7141F982 /* Gears-dummy.m */,
+				EA0D5360456A61E634DE9E8C4FCB57DF /* Gears-prefix.pch */,
+				D7C73F02CA04A7FA2741645CEE3F391A /* Gears-umbrella.h */,
+				AD12486DF0BC9D059550B32C9ACF26B1 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Gears";
+			sourceTree = "<group>";
+		};
+		511507B37F12946CDDBCE13CDD31309E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC59A0E83E49801346AA1FC2D2687207 /* GradientView.swift */,
+				DFEA9E8C48171CB0F568FDEC23786E90 /* PlaceholderTextView.swift */,
 			);
 			name = Views;
 			path = Sources/Views;
 			sourceTree = "<group>";
 		};
-		4DC3232E78624E07D03E2445F8F6A027 /* Styles */ = {
+		6FF2149B9FFF4CD8F21FBA1F69366980 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				97AD5C4BAFCCB583D2833B65BD636097 /* ButtonStyle.swift */,
-				EDE09B807B4CB28AC64550D2014532E2 /* LabelStyle.swift */,
-				CC87A4D72F3123C486A7C2438BBCA8A3 /* NavigationBarStyle.swift */,
-				4E42AF8D97F048B5EEE2CD055EADE24A /* TabBarStyle.swift */,
-				496BDE4A1333B08133680B3DE0F7A5F8 /* TextStyle.swift */,
-				4141DBE554DD0636A85F2CEF04DF3820 /* TextViewStyle.swift */,
-				9C864ACF3C1149EE4F694DEAC58573A6 /* ViewStyle.swift */,
+				E74F3307F95D620FCE5BCE9ED124122A /* Gears */,
 			);
-			name = Styles;
-			path = Sources/Styles;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		92251949A4B60C02DD2D511A86CF2AE9 /* Utils */ = {
+		75DB75ECA351C61020D631107BB9AD7F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				4FEF356079281D5527D8589501FB2463 /* DataUtils.swift */,
-				3DA552709D6794FC16FFB98E1636CE87 /* GlobalUtils.swift */,
+				D419785C7E091BC67CFCCAFCC1593FE2 /* DataUtils.swift */,
+				50CD527D5120998B5C23974A815EDD66 /* GlobalUtils.swift */,
 			);
 			name = Utils;
 			path = Sources/Utils;
+			sourceTree = "<group>";
+		};
+		79D7D0BA6BA746A591572367C2E41CBC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				048A2A0513792134889B438EC171BC26 /* Model.swift */,
+			);
+			name = Models;
+			path = Sources/Models;
 			sourceTree = "<group>";
 		};
 		93921280F71FF63D72A6578F440C02D2 /* iOS */ = {
@@ -241,6 +227,16 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		967171FFF1B20FBA535CCE96FECC53C6 /* Keybaord Observer */ = {
+			isa = PBXGroup;
+			children = (
+				84681EEDD5B756C0772F0054D40ED194 /* KeyboardNotification.swift */,
+				1680A37BDD5235810B11A3E8B4D3E3EF /* KeyboardObserver.swift */,
+			);
+			name = "Keybaord Observer";
+			path = "Sources/Keybaord Observer";
+			sourceTree = "<group>";
+		};
 		A6C67DE03367482A4DC0E98F8DA9E68B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,82 +245,77 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C8C237924FB594C0C83E5B7596A489F5 /* Gears */ = {
+		C821A1F27048C8F95036B760EB4A982C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				19A93AE1081BD5651A7C1B02B8A834CC /* Extensions */,
-				05EEB31325ADC66DE449E0233E4B3BF3 /* Keybaord Observer */,
-				F01A1FBD66B31C6206B8EB0E28AFA024 /* Models */,
-				E86808056E3B0754B18C192A14C7ADF0 /* Placeholder TextView */,
-				F544CCCEA5BE745B0EB17A8A1D8BAB46 /* Pod */,
-				4DC3232E78624E07D03E2445F8F6A027 /* Styles */,
-				F6B036C0AC7C8A1A6BBD5A246F592867 /* Support Files */,
-				92251949A4B60C02DD2D511A86CF2AE9 /* Utils */,
-				4719553E5D0CDBE1BDC9CBFEAD7A4238 /* Views */,
+				B8EAFE550E29E3F738E7D3F5518CAC47 /* Gears.podspec */,
+				9C3FBFD9FFB6E860A1925F6CA8AA0E22 /* LICENSE */,
+				0F37291594B256DFD533EA36BBDBE94E /* README.md */,
 			);
-			name = Gears;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				24390EFD555DD124430DFF9724065945 /* Podfile */,
-				D7BBEF79D19886B98FEBD35E9571537B /* Development Pods */,
+				6FF2149B9FFF4CD8F21FBA1F69366980 /* Development Pods */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
 				2DAB3A540B0A1F133F2D2CAF2AD96C27 /* Products */,
 				A6C67DE03367482A4DC0E98F8DA9E68B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D7BBEF79D19886B98FEBD35E9571537B /* Development Pods */ = {
+		D38ABC15714906FBE79A3983BA4C9F6B /* Styles */ = {
 			isa = PBXGroup;
 			children = (
-				C8C237924FB594C0C83E5B7596A489F5 /* Gears */,
+				15A8029970413153E14CE42E289FDC7C /* ButtonStyle.swift */,
+				94EA409C07AE13CC3AB947B228F1C606 /* LabelStyle.swift */,
+				5194EAA533A53C0FBBF58EC95C10028E /* NavigationBarStyle.swift */,
+				1FB716BEEC8AFFEB5EB75414F83EB235 /* TabBarStyle.swift */,
+				4641DA6706948C9D24A10E69758C5F07 /* TextStyle.swift */,
+				6129FC6AEF32664F44E46B0A70E7FC39 /* TextViewStyle.swift */,
+				220349E70837A9C6859C7196CA091B88 /* ViewStyle.swift */,
 			);
-			name = "Development Pods";
+			name = Styles;
+			path = Sources/Styles;
 			sourceTree = "<group>";
 		};
-		E86808056E3B0754B18C192A14C7ADF0 /* Placeholder TextView */ = {
+		E74F3307F95D620FCE5BCE9ED124122A /* Gears */ = {
 			isa = PBXGroup;
 			children = (
-				F3E2C2290C7955EE7713185524DD51C4 /* UITextView+Placeholder.swift */,
+				E7FAE448D4E734A31F7EBA6351B323D5 /* Extensions */,
+				967171FFF1B20FBA535CCE96FECC53C6 /* Keybaord Observer */,
+				79D7D0BA6BA746A591572367C2E41CBC /* Models */,
+				C821A1F27048C8F95036B760EB4A982C /* Pod */,
+				D38ABC15714906FBE79A3983BA4C9F6B /* Styles */,
+				319A7BE24DD945C68DBF9973666B2A81 /* Support Files */,
+				75DB75ECA351C61020D631107BB9AD7F /* Utils */,
+				511507B37F12946CDDBCE13CDD31309E /* Views */,
 			);
-			name = "Placeholder TextView";
-			path = "Sources/Placeholder TextView";
+			name = Gears;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		F01A1FBD66B31C6206B8EB0E28AFA024 /* Models */ = {
+		E7FAE448D4E734A31F7EBA6351B323D5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				C606374D02D5A6735711BB651ADCE98E /* Model.swift */,
+				6F325F12025407A5563ABC03AE2016FF /* Array+Gears.swift */,
+				EF2A9052369B0E0B97060C4811E4E43A /* CGRect+Gears.swift */,
+				755B77A1CB0BD3B1B30F665280F6FA2A /* Collection+Gears.swift */,
+				EEBC160734933E884686B2881E747206 /* NSObject+Gears.swift */,
+				65E2902A0F2C25CD9C6E3F2EE34CB429 /* Optional+Gears.swift */,
+				0CD6EC837F726A343FC33CE2B936B523 /* String+Gears.swift */,
+				909354F4992D2A64E4C8F22D26CAC57E /* UICollectionView+Gears.swift */,
+				3169566688CA381C62281446DCC7703C /* UIColor+Gears.swift */,
+				58F16173C21F702BED00C336D9641409 /* UIEdgeInsets+Gears.swift */,
+				7191737EF74B4BD5740FF085E27A6A78 /* UIFont+Gears.swift */,
+				865940445F389388AE78EBAEE998422A /* UIImage+Gears.swift */,
+				F811403EE8696347F0D660AE54847FDD /* UIView+Gears.swift */,
+				052855D0FB96977749635DB8224CCCEB /* UIViewController+Gears.swift */,
 			);
-			name = Models;
-			path = Sources/Models;
-			sourceTree = "<group>";
-		};
-		F544CCCEA5BE745B0EB17A8A1D8BAB46 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5979964EE014ABE3EBAB2E1A0986A506 /* Gears.podspec */,
-				880532FD5B4460F528FF87D60C3293E7 /* LICENSE */,
-				8C482A19EDAF0CFC411D2309415E6D03 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		F6B036C0AC7C8A1A6BBD5A246F592867 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C74925484D301C6A7B4C403C11C78B10 /* Gears.modulemap */,
-				4C2F861499DAF78CD8F171890FE78381 /* Gears.xcconfig */,
-				9CF850A21296635639655F951E2C46BD /* Gears-dummy.m */,
-				00AE76B4540B6A10785164B7561C6AAF /* Gears-prefix.pch */,
-				8DAE239E77DA5AFB38A39F10AAEF7B50 /* Gears-umbrella.h */,
-				C65889A6A962340881D1EA4E97EDF449 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Gears";
+			name = Extensions;
+			path = Sources/Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,7 +345,7 @@
 			buildConfigurationList = 6EE8AC5ADFD679BA2735A4308D9C14A4 /* Build configuration list for PBXNativeTarget "Gears" */;
 			buildPhases = (
 				7B3836C9FDC309D99C1AA91579099333 /* Headers */,
-				C3ECD77D3DC0D4BE79786E521810D4B6 /* Sources */,
+				0B8EC09010A385DBFBD02751B78D4BD6 /* Sources */,
 				13DEF98012FB9031C27EC4E630AC30D2 /* Frameworks */,
 				FF92078312C6CA5C6EA46CCD7CCE338C /* Resources */,
 			);
@@ -431,46 +422,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0B8EC09010A385DBFBD02751B78D4BD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AC3611047C8C414278EB1A1E4506D6 /* Array+Gears.swift in Sources */,
+				B01A5B7BF963D1778AFEC974472F6879 /* ButtonStyle.swift in Sources */,
+				FCF47C4FA83C18125594FCE2EB77FA5E /* CGRect+Gears.swift in Sources */,
+				75D543557E1A86A894F818A155321B18 /* Collection+Gears.swift in Sources */,
+				841662FE7B013020ACFDC7AE073B7527 /* DataUtils.swift in Sources */,
+				699F884668D475DC0D097E3B9A2978B7 /* Gears-dummy.m in Sources */,
+				B1ECF47ECD8EBE7C72C6A103117BA098 /* GlobalUtils.swift in Sources */,
+				8E6DC86BC48D61D0DA018180765B42CF /* GradientView.swift in Sources */,
+				942230FCDC2BD054A1F35642CC4E146E /* KeyboardNotification.swift in Sources */,
+				75A0CD2B1B38D16BAC79D44646568811 /* KeyboardObserver.swift in Sources */,
+				11E1F2B9CFA0B6409EB743A182FE9874 /* LabelStyle.swift in Sources */,
+				8B0B3BD08A625C4484A10C2CC0977E97 /* Model.swift in Sources */,
+				853A3FC361E957B5A314721D0B85C86A /* NavigationBarStyle.swift in Sources */,
+				881B9CCB8D105078EA0472564A343E71 /* NSObject+Gears.swift in Sources */,
+				3D1DD4045A29696D9469EFAFEDF60E44 /* Optional+Gears.swift in Sources */,
+				37D8336044D37836BB039C2DF2C16996 /* PlaceholderTextView.swift in Sources */,
+				E1EAB6A9B43D24955851DE0B0C9CD032 /* String+Gears.swift in Sources */,
+				58E3DD4037C07BB86B09D6E0C8FD4FCE /* TabBarStyle.swift in Sources */,
+				6AD2E5E1D89E80FC1765E45888B644A4 /* TextStyle.swift in Sources */,
+				B57CC5F6F0A1FC8C0A59E42831A365CD /* TextViewStyle.swift in Sources */,
+				F70ED2BF099FCE85740AFB762DBB9099 /* UICollectionView+Gears.swift in Sources */,
+				CC05E099E28EC9FE1BFA3E36DBDA09C6 /* UIColor+Gears.swift in Sources */,
+				1BE99C96D97098B52BA8C56C14B914FF /* UIEdgeInsets+Gears.swift in Sources */,
+				4B6153DDDC323285A401BB69868DA0FE /* UIFont+Gears.swift in Sources */,
+				C67A66B5B729350EE41FF3B3634200F3 /* UIImage+Gears.swift in Sources */,
+				01F7C7666284115367AD5E9A3055CE55 /* UIView+Gears.swift in Sources */,
+				518E99E88861D0AFAACA9C4FE0D77DE2 /* UIViewController+Gears.swift in Sources */,
+				46C7BB2F7A57385B3E06168FCB64B00C /* ViewStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B6F8FC2C40CCF94223353E33BC1F8F5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9725E324B5A37C74EEF33305DB4E7B97 /* Pods-GearsSampleApp-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3ECD77D3DC0D4BE79786E521810D4B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				333D65244800857CBD1EC038FF15E1D1 /* Array+Gears.swift in Sources */,
-				367B16B4E977C276584A3026C8ACA798 /* ButtonStyle.swift in Sources */,
-				8821B4A5F740A4DD1AFF8272F802509D /* CGRect+Gears.swift in Sources */,
-				4C915A77DDC79A6C8D84EE0FCD566F60 /* Collection+Gears.swift in Sources */,
-				24D2FE9D8275366BD52ADF984B219EE9 /* DataUtils.swift in Sources */,
-				14165C55672A6888DBED3A8F685B448C /* Gears-dummy.m in Sources */,
-				E15488AB57C6B48BBA4F7E992FBD1ED6 /* GlobalUtils.swift in Sources */,
-				B9C231517A0D87D081B9A2633326EDF5 /* GradientView.swift in Sources */,
-				3755B579E8C23954DC688A8705CA7F1C /* KeyboardNotification.swift in Sources */,
-				A9D0BA43AEA5FF92E4DAB7851158C396 /* KeyboardObserver.swift in Sources */,
-				DDCDB3334699D3FBE34E4AFC17243604 /* LabelStyle.swift in Sources */,
-				8FD67E67EAE5B4F39CE837358FFC59E4 /* Model.swift in Sources */,
-				C4D5577B576CB47436CB23D3DF58EAC1 /* NavigationBarStyle.swift in Sources */,
-				A13FE4651D8ACBAFE8CE1032117031F7 /* NSObject+Gears.swift in Sources */,
-				F3D915DFA4371751FC3E1A4C6AEF4C3F /* Optional+Gears.swift in Sources */,
-				2C38163375A191FC6EFD3176ED6FBAA2 /* String+Gears.swift in Sources */,
-				30E90A7AB90D181D54CF44A1301D3184 /* TabBarStyle.swift in Sources */,
-				76652AFB9F30BF556A945417F5CA8957 /* TextStyle.swift in Sources */,
-				CAECABCACA842CEA3E52F9F5D0862B1F /* TextViewStyle.swift in Sources */,
-				5A2694B0558BF540EAC8E451825FFB14 /* UICollectionView+Gears.swift in Sources */,
-				AC01AB9D709B76D8E6FA7CEE7B67CAE3 /* UIColor+Gears.swift in Sources */,
-				23B6EC70A9B6019D8395DA43B6416613 /* UIEdgeInsets+Gears.swift in Sources */,
-				A11DB34BB75CDCD5DB142C11666AAF96 /* UIFont+Gears.swift in Sources */,
-				CE5D39995C5571236E13E11B592F8D76 /* UIImage+Gears.swift in Sources */,
-				CD06A65038A4BFA919C3AFC5671B83A5 /* UITextView+Placeholder.swift in Sources */,
-				A2ED843A97FBAA5ECEBFBF367053B9E5 /* UIView+Gears.swift in Sources */,
-				50582D70C3C8D8BC6FE4924CEBE58BAC /* UIViewController+Gears.swift in Sources */,
-				560B27F08A2586C03C0D20F2603B360F /* ViewStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,7 +479,7 @@
 /* Begin XCBuildConfiguration section */
 		107C7E170672B1C2DE8C99017E451713 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C2F861499DAF78CD8F171890FE78381 /* Gears.xcconfig */;
+			baseConfigurationReference = ECCB68269E9FE4DDA84EAD2701C96E61 /* Gears.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -586,7 +577,7 @@
 		};
 		5DD35B3C73F306E0380B5B827877C84F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C2F861499DAF78CD8F171890FE78381 /* Gears.xcconfig */;
+			baseConfigurationReference = ECCB68269E9FE4DDA84EAD2701C96E61 /* Gears.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

@@ -6,10 +6,6 @@
 //  Copyright © 2019 Sparkles. All rights reserved.
 //
 
-fileprivate struct Key {
-    static var textView: UInt8 = 0
-}
-
 class PlaceholderTextView: UITextView {
 
     struct Constant {
@@ -145,8 +141,14 @@ class PlaceholderTextView: UITextView {
 
 }
 
-
+/**
+ UITextView extensions for placeholder support.
+ */
 extension UITextView {
+    fileprivate struct Key {
+        static var textView: UInt8 = 0
+    }
+
     public var placeholderText: String? {
         get {
             return placeholderTextView.text

@@ -37,7 +37,7 @@ extension UIViewController {
 
     public var safeAreaInsets: UIEdgeInsets {
         if #available(iOS 11.0, *) {
-            return view.safeAreaInsets
+            return view.window?.safeAreaInsets ?? view.safeAreaInsets
         } else {
             return .zero
         }
